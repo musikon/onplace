@@ -1,0 +1,142 @@
+[
+  {
+    "type": "about-card",
+    "isStartup": true,
+    "is-article-content": false,
+    "time": "35",
+    "investments": 5750,
+    "targetMin": 50000,
+    "target": 66700,
+    "rating": "₽",
+    "percent": 70,
+    "currency": "$",
+    "city": "Krasnodar",
+    "min_sum": "10000",
+    "investors": "8"
+  },
+  {
+    "type": "head",
+    "projectType": "Startup",
+    "projectTypeId": 3,
+    "title": "Business development of Chisto company project",
+    "rating": "C",
+    "authorUrl": "/images/author/clean.png",
+    "authorName": "Alexander Khomyakov",
+    "authorPosition": "CEO",
+    "background": "/images/data/project-about-background-2.jpg",
+    "websiteLink": "http://chisto.io/",
+    "socialVk": "https://vk.com/chistokrd",
+    "socialIns": "https://www.instagram.com/chistokrd/",
+    "social": true
+  },
+  {
+    "type": "simple-image",
+    "src": "/images/content/chisto1.jpg",
+    "alt": "service Calculator"
+  },
+  {
+    "type": "title",
+    "text": "About"
+  }, {
+  "type": "text",
+  "text": "The company \"CHISTO\" position itself as a reliable partner and assistant in the field of cleaning for the entire Krasnodar region, carrying out cleaning of apartments, private houses and office buildings. The philosophy of \"CHISTO\" is directly connect with personalized approach and thorough training for staff. To such cleaning personnel customers will be able to trust not only cleaning , but more important things like health, personal belongings and housing."
+},{
+  "type": "text",
+  "text": "A startup has made every effort to ensure that the services of \"CHISTO\" is not only the quality, but also affordabilit . It's a young,and promising startup. The creators of the company understand the market and the specifics of their region."
+},{
+  "type": "text",
+  "text": "The mission of CHISTO is to make cleaning services available to everyone."
+},
+  {
+    "type": "text",
+    "text": "Interview, training, security check of all candidates – and it is not quite full list of checks for cleaners so that each client can trust in the professionalism of the company “CHISTO”. The company's staff is ready to provide all necessary documents and certificates."
+  },
+  {
+    "type": "simple-image",
+    "src": "/images/content/chisto3.jpg",
+    "alt": "Advantages"
+  },
+  {
+    "type": "title",
+    "text": "The purpose seeking for investment"
+  },
+  {
+    "type": "text",
+    "text": "The purposeof to attract  investments is to expand business: creating application, increasing budget for advertising, as well as expanding the scope of services like  office cleaning – becaus  there is a demand for Office cleaning services in Krasnodar region. The investor will receivebe a share of a business in the amount of 22%"
+  },
+  {
+    "type": "text",
+    "text": "Инвестору будет передана доля бизнеса в размере 22%."
+  },
+  {
+    "type": "title",
+    "text": "The use of investment:"
+  },
+  {
+    "type": "list",
+    "listItems": [
+      "Application: up to USD 34 000 for development of new applications for company's clients.",
+      "Recruitment of staff, improvement of logistics and technical base – USD 12 000.",
+      "Marketing budget: USD 22 000."
+    ]
+  },
+  {
+    "type": "text",
+    "text": "Expected growth of orders: average of 13 sites per day, with the average cost of USD 42 (at the expense of office space and houses)."
+  },
+  {
+    "type": "text",
+    "text": "Assumed revenue per month is USD 16 500, and clean income is USD 8 200. Monthly cost to run the company is USD 2 200  ($422 - chemicals,$253 - rent, $506 - advertising, $338 - operator, $676 - administrators). A total of clean incom per mont is USD 6 000  and clean income per year is USD 72 500."
+  },
+  {
+    "type": "title",
+    "text": "Assumed valuevalue of the business"
+  },
+  {
+    "type": "list",
+    "listItems": [
+      "Assumed valuevalue of the business after the implementation of  attracted investments is USD 518 000.",
+      "The value of shares helped by investor (22%) is USD 114,000.",
+      "The value increase of the shares (return of  investment) will be 70%."
+    ]
+  },
+  {
+    "type": "simple-image",
+    "src": "/images/content/chisto2.jpg",
+    "alt": "Преимущества"
+  },
+  {
+    "type": "title",
+    "text": "The current status of the project"
+  },
+  {
+    "type": "text",
+    "text": "After a deep analysis of the region , it became clear that the specificity of the Krasnodar market  dictates its own terms: 30% of cleanups are not only apartments, but also private homes. Hired 10 cleaner-workers, trained them,and connected them to the system – with ability to clean 10 apartments a day."
+  },
+  {
+    "type": "text",
+    "text": "Accordingly, the current possible indicators totle of 300 cleanings per month. Revenue for one cleaning is USD 34. Clean revenue of the company  for one cleaning (50%) – USD17."
+  },
+  {
+    "type": "text",
+    "text": "Thus, the  income of 10 cleanups per month  will be USD 5100. Monthly cost to run          the company estimated at USD 1700 ($340 - chemicals, $253 - rent, $506 advertising $253 - operator, $337 - administrator). Total net of income is USD 3 400. Expected annual income is USD 40 500."
+  },
+  {
+    "type": "text",
+    "text": "Based on all the above, the value of the business is USD 304 100 ."
+  },
+  {
+    "type": "big-quote_left-side-indicators",
+    "left": {
+      "title": "Investment model",
+      "numb": false,
+      "val": "SU2"
+    },
+    "right": {
+      "title": "",
+      "val": "",
+      "rightText": "",
+      "bottomText": ""
+    }
+  }
+]

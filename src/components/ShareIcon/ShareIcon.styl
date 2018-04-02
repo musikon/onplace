@@ -1,0 +1,230 @@
+.c-fab
+  transform: translate3d(0,0,0);
+  position: absolute
+  right: 0
+  // in media - cause it handful
+  top: 'calc(100% + %srem)' % (37/rfs)
+  top: calc(100% + -33px)
+  width: 56px
+  height: 56px
+  background-color: #f5f5f5
+  border-radius: 50%
+  z-index: 20
+  transition: all .6s cubic-bezier(.19,1,.22,1);
+  right: 87px
+  user-select: none
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.12),0 8px 8px 0 rgba(0,0,0,.24);
+
+  &.isInCard
+    top: calc(100% - 30px)
+    right: 25px
+    +between(826px, 1300px)
+      width: 45px
+      height: 45px
+      right: 5%
+      top: calc(100% - 24px)
+      button.share-icon-button
+        width: 45px
+        height: 45px
+
+        .share-icon
+          top: 13px;
+          left: 13px;
+
+          .path
+            background: #4c4c4c
+            position: absolute
+            transition: all .6s cubic-bezier(.19,1,.22,1)
+            transition-property: transform, color, opacity
+
+            &.line
+              width: 16px
+              height: 1px
+              transition: all .6s cubic-bezier(.19,1,.22,1);
+
+              &.top
+                transform: rotate3d(0,0,1,-30deg)
+                top: 6px
+              &.bottom
+                transform: rotate3d(0,0,1,30deg)
+                top: 12px
+
+            &.joint
+              width: 5px
+              height: 5px
+              border-radius: 50%
+              opacity: 1
+
+              &.top
+                left: 12px
+                top: 0
+
+              &.middle
+                left: 0px
+                top: 7px
+
+              &.bottom
+                left: 12px
+                top: 14px
+
+
+      &.open
+        button.share-icon-button
+          .share-icon
+            position: absolute
+            top: 13px
+            left: 13px
+  &:hover
+    box-shadow: 0 0 12px 0 rgba(0,0,0,.08),0 12px 12px 0 rgba(0,0,0,.24);
+
+  .fab-container
+    display: block
+
+  button.share-icon-button
+    user-select: none
+    outline: 0
+    right: 0
+    width: 56px
+    height: 56px
+    cursor: pointer
+    z-index: 1000
+    background: none
+    position: absolute
+    top: 0
+    margin: 0
+    padding: 0
+    border: none;
+
+    .share-icon
+      position: absolute
+      top: 19px
+      left: 19px
+
+
+      .path
+        background: #4c4c4c
+        position: absolute
+        transition: all .6s cubic-bezier(.19,1,.22,1)
+        transition-property: transform, color, opacity
+
+        &.line
+          width: 16px
+          height: 2px
+          transition: all .6s cubic-bezier(.19,1,.22,1);
+
+          &.top
+            transform: rotate3d(0,0,1,-30deg)
+            top: 6px
+          &.bottom
+            transform: rotate3d(0,0,1,30deg)
+            top: 12px
+
+        &.joint
+          width: 6px
+          height: 6px
+          border-radius: 6px
+          opacity: 1
+
+          &.top
+            left: 12px
+            top: 0
+
+          &.middle
+            left: 0
+            top: 7px
+
+          &.bottom
+            left: 12px
+            top: 14px
+
+  .fab-container
+    opacity: 0
+    visibility: hidden
+    height: 1px
+
+    h2
+      define-font(museo, 20px, black, 1.5)
+      margin: 14px 0 12px 24px;
+
+    .list
+      margin: -10px 0 10px 24px;
+      padding: 0;
+      list-style: none;
+      position: relative
+
+    .fab-link
+      color: #2962ff;
+      display: block;
+      color: rgba(0,0,0,.7) !important;
+      text-decoration: none;
+      cursor: pointer
+
+      .social-icon
+        define-font(museo, 16px, black, 1.5)
+        display: inline-block;
+        padding-right: 16px;
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        img
+          width: 20px;
+          height: 30px;
+          opacity: .7;
+          transition: opacity .6s cubic-bezier(.19,1,.22,1);
+          padding-right: 20px
+
+        &:hover
+          img
+            opacity: .9
+
+  // opened
+  &.open
+    width: 180px
+    height: 165px
+    border-radius: 5px
+
+    button.share-icon-button
+      .share-icon
+        position: absolute
+        top: 19px
+        left: 19px
+
+        .path
+          background: #4c4c4c
+          position: absolute
+          transition: all .6s cubic-bezier(.19,1,.22,1)
+          transition-property: transform, color, opacity
+
+          transform: translate3d(0, 0, 0);
+          webkit-backface-visibility: hidden;
+          -webkit-transform: translateZ(0) scale(1.0, 1.0);
+
+          &.line
+            width: 16px
+            height: 2px
+
+            &.top
+              transform: rotate3d(0, 0, 1, -135deg);
+            &.bottom
+              transform: rotate3d(0, 0, 1, -45deg);
+              top: 6px
+
+          &.joint
+            display: none
+
+    .fab-container
+      display: block
+      opacity: 1
+      transition: all .8s linear;
+      visibility: visible
+      height: auto
+
+      h2
+        transition: all .8s linear;
+
+      .list
+        display: block
+
+      a
+        transition: all .8s linear;

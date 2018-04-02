@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="518px" height="529px" viewBox="0 0 518 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>scheme_2 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="1" width="250" height="144" rx="17"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="250" height="144" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M268,16.9953058 C268,7.60905758 275.618508,0 284.999224,0 L501.000776,0 C510.389188,0 518,7.61507006 518,16.9953058 L518,127.004694 C518,136.390942 510.381492,144 501.000776,144 L284.999224,144 C275.610812,144 268,136.38493 268,127.004694 L268,16.9953058 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="250" height="144" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main_new" transform="translate(-668.000000, -4213.000000)">
+            <g id="Типы-проектов" transform="translate(-1.000000, 3252.000000)">
+                <g id="scheme_2-copy" transform="translate(669.000000, 954.000000)">
+                    <path d="M193,225.707107 L193.035432,225.742539 L193,225.777971 L193,225.707107 Z M192.440079,225.147186 L181,213.707107 L181.707107,213 L194.435029,225.727922 L194.420412,225.742539 L194.435029,225.757156 L181.707107,238.485078 L181,237.777971 L192.630785,226.147186 L149,226.147186 L149,225.647186 L149,84.1471863 L150,84.1471863 L150,225.147186 L192.440079,225.147186 Z M174.5,89 C176.985281,89 179,86.9852814 179,84.5 C179,82.0147186 176.985281,80 174.5,80 C172.014719,80 170,82.0147186 170,84.5 C170,86.9852814 172.014719,89 174.5,89 Z M150,85.1471863 L150,84.1471863 L170,84.1471863 L170,85.1471863 L150,85.1471863 Z" id="Combined-Shape" fill="#7ED321"></path>
+                    <path d="M368,225.707107 L368.035432,225.742539 L368,225.777971 L368,225.707107 Z M367.440079,225.147186 L356,213.707107 L356.707107,213 L369.435029,225.727922 L369.420412,225.742539 L369.435029,225.757156 L356.707107,238.485078 L356,237.777971 L367.630785,226.147186 L324,226.147186 L324,225.647186 L324,84.1471863 L325,84.1471863 L325,225.147186 L367.440079,225.147186 Z M349.5,89 C351.985281,89 354,86.9852814 354,84.5 C354,82.0147186 351.985281,80 349.5,80 C347.014719,80 345,82.0147186 345,84.5 C345,86.9852814 347.014719,89 349.5,89 Z M325,85.1471863 L325,84.1471863 L345,84.1471863 L345,85.1471863 L325,85.1471863 Z" id="Combined-Shape-Copy-2" fill="#7ED321" transform="translate(346.717514, 159.242539) scale(-1, 1) translate(-346.717514, -159.242539) "></path>
+                    <path d="M259,320 C294.898509,320 324,290.898509 324,255 C324,219.101491 294.898509,190 259,190 C223.101491,190 194,219.101491 194,255 C194,290.898509 223.101491,320 259,320 Z" id="Oval-9" fill="#19395F" transform="translate(259.000000, 255.000000) rotate(-360.000000) translate(-259.000000, -255.000000) "></path>
+                    <text id="Стартапы" fill="#D8D8D8" font-family="PTMono-Bold, PT Mono, 'Lucida Console', Monaco, monospace" font-size="15" font-weight="bold" line-spacing="20" letter-spacing="0.74000001">
+                        <tspan x="220.54" y="258">СТАРТАПЫ</tspan>
+                    </text>
+                    <rect id="Rectangle-41" fill="#7ED321" transform="translate(258.852814, 84.852814) rotate(-225.000000) translate(-258.852814, -84.852814) " x="198.852814" y="24.8528137" width="120" height="120" rx="17"></rect>
+                    <text id="Инвесторы" font-family="PTMono-Bold, PT Mono, 'Lucida Console', Monaco, monospace" font-size="15" font-weight="bold" letter-spacing="0.74000001" fill="#FFFFFF">
+                        <tspan x="215" y="89">ИНВЕСТОРЫ</tspan>
+                    </text>
+                    <g id="Group-37" transform="translate(0.000000, 391.000000)">
+                        <use id="Rectangle-12" stroke="#7ED321" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        <g id="Group-35" transform="translate(44.000000, 26.000000)" font-size="20" font-family="PTMono-Regular, PT Mono, 'Lucida Console', Monaco, monospace" line-spacing="16" fill="#7ED321" font-weight="normal">
+                            <text id="SU1">
+                                <tspan x="0" y="18">SU1</tspan>
+                            </text>
+                        </g>
+                        <use id="Rectangle-12-Copy" stroke="#7ED321" mask="url(#mask-4)" stroke-width="2" stroke-dasharray="2" xlink:href="#path-3"></use>
+                        <text id="Инвесторы-—-владельц" opacity="0.800000012" font-family="PTMono-Regular, PT Mono, 'Lucida Console', Monaco, monospace" font-size="13" font-weight="normal" line-spacing="16" fill="#000000">
+                            <tspan x="312" y="64">Инвесторы — владельцы</tspan>
+                            <tspan x="312" y="80">доли в проекте. </tspan>
+                            <tspan x="312" y="96">Доход не ограничен.</tspan>
+                        </text>
+                        <g id="Group-36" transform="translate(44.000000, 26.000000)" font-weight="normal" font-family="PTMono-Regular, PT Mono, 'Lucida Console', Monaco, monospace" line-spacing="16">
+                            <text id="SU2" font-size="20" fill="#7ED321">
+                                <tspan x="268" y="18">SU2</tspan>
+                            </text>
+                            <text id="Инвесторы-—-кредитор" opacity="0.800000012" font-size="13" fill="#000000">
+                                <tspan x="0" y="38">Инвесторы — кредиторы</tspan>
+                                <tspan x="0" y="54">проекта. Доход в виде</tspan>
+                                <tspan x="0" y="70">процента от будущих</tspan>
+                                <tspan x="0" y="86">доходов (опцион).</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <path d="M185.052489,284 C185.301211,281.750025 187.208748,280 189.525024,280 C192.010306,280 194.025024,282.014719 194.025024,284.5 C194.025024,286.985281 192.010306,289 189.525024,289 C187.208748,289 185.301211,287.249975 185.052489,285 L125.025024,285 L125.025024,284 L185.052489,284 Z M125.025024,383.777971 L136.777971,372.025024 L137.485078,372.732131 L124.757156,385.460053 L124.742539,385.445436 L124.727922,385.460053 L112,372.732131 L112.707107,372.025024 L124.025024,383.342942 L124.025024,284 L125.025024,284 L125.025024,383.777971 Z M124.802995,384 L124.742539,384.060456 L124.682082,384 L124.802995,384 Z" id="Combined-Shape" fill="#19395F"></path>
+                    <path d="M397.052489,284 C397.301211,281.750025 399.208748,280 401.525024,280 C404.010306,280 406.025024,282.014719 406.025024,284.5 C406.025024,286.985281 404.010306,289 401.525024,289 C399.208748,289 397.301211,287.249975 397.052489,285 L337.025024,285 L337.025024,284 L397.052489,284 Z M337.025024,383.777971 L348.777971,372.025024 L349.485078,372.732131 L336.757156,385.460053 L336.742539,385.445436 L336.727922,385.460053 L324,372.732131 L324.707107,372.025024 L336.025024,383.342942 L336.025024,284 L337.025024,284 L337.025024,383.777971 Z M336.802995,384 L336.742539,384.060456 L336.682082,384 L336.802995,384 Z" id="Combined-Shape-Copy" fill="#19395F" transform="translate(365.012512, 332.730027) scale(-1, 1) translate(-365.012512, -332.730027) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

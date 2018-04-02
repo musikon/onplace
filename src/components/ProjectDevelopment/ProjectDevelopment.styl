@@ -1,0 +1,210 @@
+.c-projects-development-root
+  position: relative
+  background-color: sky
+  padding-top: (120/rfs)rem
+  padding-bottom: 540px
+  overflow-x: hidden
+
+  .projects-development-inner
+    define-container()
+    position relative
+
+    .image-container
+      position absolute
+      margin-top (60/rfs)rem
+      left 0px
+      transition 0.5s
+
+      .active-images
+        position absolute
+        left 0px
+        top 0px
+        z-index 1
+        width 200px
+        overflow hidden
+
+      .blue-point
+        position absolute
+        width 8px
+        height 8px
+        background #1e9df2
+        border-radius 50%
+        top 148px
+        left 200px
+
+      .text-container
+        display block
+        width 1500px
+        margin-top 35px
+        padding-left 15px
+
+        .container
+          width 176px
+          display inline-block
+          vertical-align top
+
+          .title
+            define-font(museo, 12px, black, 1.33, bold, 0.4px)
+            margin-bottom 10px
+            opacity 0.2
+
+          .text
+            define-font(mono, 11px, black, 1.64, normal)
+            opacity 0.5
+
+        .container:nth-child(1)
+          margin-right: 90px
+          .title
+            color #1e9df2
+            opacity 1
+          .text
+            opacity 0.8
+
+        .container:nth-child(2)
+          margin-right 50px
+        .container:nth-child(3)
+          margin-right 120px
+        .container:nth-child(4)
+          margin-right 70px
+        .container:nth-child(5)
+          margin-right 110px
+
+    .image-container-1
+      .active-images
+        width 430px
+      .blue-point
+        left 430px
+      .container:nth-child(2)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+
+    .image-container-2
+      .active-images
+        width 720px
+      .blue-point
+        left 720px
+      .container:nth-child(2)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(3)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+
+    .image-container-3
+      .active-images
+        width 990px
+      .blue-point
+        left 990px
+      .container:nth-child(2)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(3)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(4)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+
+    .image-container-4
+      .active-images
+        width 1265px
+      .blue-point
+        left 1265px
+      .container:nth-child(2)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(3)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(4)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(5)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+
+    .image-container-5
+      .active-images
+        width 1425px
+      .blue-point
+        left 1425px
+      .container:nth-child(2)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(3)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(4)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(5)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+      .container:nth-child(6)
+        .title
+          color #1e9df2
+          opacity 1
+        .text
+          opacity 0.8
+
+  .slider-container
+    width (144/rfs)rem
+    position absolute
+    bottom (20/rfs)rem
+    left 0px
+    right 0px
+    margin auto
+
+    &.not-visible
+      visibility: hidden
+
+    div > div > div > div //i hate material-ui in this moment
+      &:nth-child(2)
+        background-color: blue!important
+        border-color: blue!important
+
+      &:nth-child(3)
+        background-color: blue !important
+        border-color: blue!important

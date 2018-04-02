@@ -1,0 +1,59 @@
+.root-about-documents
+  width (656/rfs)rem
+
+  +below(tablet_max)
+    padding: 0 (32/rfs)rem
+    width 100%
+    box-sizing border-box
+
+  .document-prev
+    margin-top (20/rfs)rem
+    margin-bottom (67/rfs)rem
+    width 100%
+    clearfix()
+
+    .file
+      height (101/rfs)rem
+      box-sizing border-box
+      overflow hidden
+      border 1px solid gray
+      column(3/12, $gutter: 2.3, $cycle: 4)
+      margin-bottom (17/rfs)rem
+      cursor pointer
+      position relative
+
+      +below(tablet_max)
+        column(4/12, $gutter: 2.3, $cycle: 3)
+
+      +below(mobile_max)
+        column(6/12, $gutter: 2.3, $cycle: 2)
+
+      .mask
+        position absolute
+        width 100%
+        height: 100%
+        margin auto
+        top 0px
+        left 0px
+        bottom 0px
+        right 0px
+        z-index 1
+        background black
+        opacity 0
+        .image
+          position absolute
+          margin auto
+          top 0px
+          left 0px
+          bottom 0px
+          right 0px
+
+      .document-img
+        width 100%
+        height 100%
+        object-fit cover
+
+    .file:hover .mask
+      opacity 0.75
+
+

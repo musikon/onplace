@@ -1,0 +1,153 @@
+[
+  {
+    "is-article-content": false,
+    "type": "about-card",
+    "time": "63",
+    "isStartup": true,
+    "investments": 150000,
+    "target": 3000000,
+    "targetMin": 3000000,
+    "currency": "$",
+    "rating": "$",
+    "percent": "up to 82",
+    "city": "San Francisco, California, USA",
+    "min_sum": "49",
+    "investors": "23"
+  },
+  {
+    "is-article-content": false,
+    "type": "head",
+    "projectType": "Startup",
+    "projectTypeId": 1,
+    "title": "Share purchase/share in UBER",
+    "rating": "A",
+    "ratingText": "Good projects are attractive projects that require above average investing, but that are a subject to a certain influence leading to long-term risks.",
+    "authorUrl": "/images/logo-padding.svg",
+    "authorName": "OnPlace Inc. analytical division",
+    "authorPosition": "The owner of this block of shares",
+    "websiteLink": "www.uber.com",
+    "background": "/images/data/uber.png"
+  },
+  {
+    "type": "title",
+    "text": "Компания UBER Inc."
+  },
+  {
+    "type": "text",
+    "text": "<strong class='md-inline-bold'>Uber Technologies Inc.</strong> (Uber) is an American multinational company from San Francisco, who created the eponymous mobile app to search, call and pay taxi or private drivers. By the end of 2016, the service through the app is available in over five hundred cities around the world. With Uber, the customer reserves a car with driver and tracks its movement to the specified point, the payment is made by your bank card, or cash. In most cases, drivers use their own cars and also cars of taxi companies or partners. In most countries 80% of the payment is transferred to the driver, and 20% to Uber."
+  },
+  {
+    "type": "table",
+    "headers": ["Company name", "Uber Technologies Inc."],
+    "data": [
+      ["Business type", "A private company"],
+      ["Year established", "2009"],
+      ["Headquarter location", "San Francisco California "],
+      ["Business sector", "Transport and information technology"],
+      ["Number of employees", "6700 people"],
+      ["Number of cities which present the services of the company (according to Uber)", "527 cities, more than 35 countries"],
+      ["Business capitalization (according to the latest open data sources)", "$62,5 billion"]
+    ]
+  },
+  {
+    "type": "text",
+    "text": "Uber Policy is to expand in new cities, based on a thorough market study of computer methods. If a taxi costs $ 6 , Uber is ready to compensate the driver out of pocket $1 that he drove for $ 5."
+  },
+  {
+    "type": "text",
+    "text": "Priority directions of business development: global expansion and increase the share of the world market of taxi services, development of unmanned vehicles and technologies, catering services, the development of alternative modes of transport."
+  },
+  {
+    "type": "big-quote-left-side",
+    "title": "4-year yield is",
+    "bigLetter": "1 700%",
+    "smallLetter": ""
+  },
+  {
+    "type": "title",
+    "text": "Financial key indicators"
+  },
+  {
+    "type": "text",
+    "text": "The income net of Uber is growing rapidly: an increase in net income for 2013 – 2016 was about 330-400% annually, is the company's revenues grow at least three times over a period of 5 years; quarterly growth rates show a positive trend at the level of 15-100% in the quarter. Growth rates were always quite high, but the biggest jump was seen in 2014-2015, mainly due to the international expansion of the company."
+  },
+  {
+    "type": "image",
+    "src": "/images/content/uber-graph-1.png",
+    "author": "Source: OnPlace estimates and forecasts based on data from open sources.",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "text": "While Uber net income is growing quite smoothly, the costs could change vary dramatically it depend on factors such as competition, market expansion, marketing costs. Nevertheless, the General trends are shown below. Operating activities the company's loss in 2016 Uber lost $570 million in the first quarter and $750 million in the second and third."
+  },
+  {
+    "type": "image",
+    "src": "/images/content/uber-graph-2.png",
+    "author": "Source: OnPlace estimates and forecasts based on data from open sources.",
+    "alt": ""
+  },
+  {
+    "type": "title",
+    "text": "UBER main investors"
+  },
+  {
+    "type": "text",
+    "text": "Uber has raised about $11.5 billion from venture capital and private investors in 14 rounds."
+  },
+  {
+    "type": "text",
+    "text": "According to estimates, investments of Goldman Sachs and Jeff Bezos of Amazon together constitute about 11% of the capitalization of Uber, Google and Fidelity - for 7%, Alisher Usmanov and Baidu - not less than 2%. Vanguard, alpha (L1), Hartford, Desjardins - less than 1%."
+  },
+  {
+    "type": "text",
+    "text": "Saudi state Fund Public Investment Fund in Q2 2016 invested in Uber taxi service - $3.5 billion, according to the Financial Times the valuation of the company exceeded $62 billion."
+  },
+  {
+    "type": "text",
+    "text": "The taxi service Uber in the last major round of investment attraction was valued at $62 billion according to the details of the transaction, which was held by Morgan Stanley."
+  },
+  {
+    "type": "text",
+    "text": "The entry threshold for investors amounted to $250 000."
+  },
+  {
+    "type": "title",
+    "text": "Current and expected capitalization UBER"
+  },
+  {
+    "type": "text",
+    "text": "If you take into account the growth rate, we can expect an increase in net income on Uber 100-150% in 2017. Thus, the estimated net income will be $10-12. 5 billion."
+  },
+  {
+    "type": "text",
+    "text": "The largest multiplier of the revenue/market capitalization in 2017 among Internet companies is 9.0 at Facebook, which earns almost $37 billion with EBITDA margin of 63%. Best commercial company for 2017 have a multiplier revenue/capitalization in the amount of 6.0-8.0 but most of them are profitable companies."
+  },
+  {
+    "type": "text",
+    "text": "If we start estimating the Uber income at $12.5 billion and minimum values of the multiplier, than the expected capitalization of the business is estimated at $75 billion and has a growth potential from the current level of minimum 20% and 82% in the optimistic multiplier in 9th, the expected capitalization of the Uber will be $112,5 billion."
+  },
+  {
+    "type": "image",
+    "src": "/images/content/uber-graph-3.png",
+    "author": "Source: https://www.crunchbase.com/organization/uber#/entity",
+    "alt": ""
+  },
+  {
+    "type": "title",
+    "text": "Total indicators of investments efficiency in UBER Inc."
+  },
+  {
+    "type": "table",
+    "headers": ["Company name", "Uber Technologies Inc."],
+    "data": [
+      ["Headquarter location", "San Francisco California "],
+      ["Minimum investment threshold", "$250 000"],
+      ["Current capitalization", "$62,5 billion"],
+      ["Expected net of clean profit in 2017", "$12,5 billion"],
+      ["Market value multiplier revenue / value of the business at the beginning of 2017", "6,0 – 9,0"],
+      ["Expected growth capitalization in case of IPO", "$75 – 112,5 billion"],
+      ["The profitability of investments in UBER Inc.", "Up to 82% per year"]
+    ]
+  }
+]

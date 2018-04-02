@@ -1,0 +1,118 @@
+.c-news-card-root
+  white-space: normal
+  column(4/num-columns, $gutter: gutter)
+  background: blue
+
+  &.with-image
+    column(8/num-columns, $gutter: gutter)
+
+  &.vertical
+    column(12/12, $gutter: 100px)
+
+    .news-item
+      cursor: pointer
+      display: flex
+      flex-direction: column
+      height: (836/rfs)rem
+      width: 100%
+
+      .news-item-image-container
+        span(8/8)
+        height: (410/rfs)rem
+        width: 100%
+        overflow: hidden
+        text-align: center
+
+        img
+          height: 100%
+          width: auto
+
+      .news-item-container
+        position: relative
+        width: (368/rfs)rem
+        box-sizing: border-box
+        height: (426/rfs)rem
+        padding: (30/rfs)rem (34/rfs)rem
+
+
+
+  .news-item
+    display: flex
+    background-color: white
+    height: (410/rfs)rem
+    overflow: hidden
+    text-decoration: none
+    box-shadow: 0 2px 4px 0 rgba(4, 49, 71, 0.5);
+    define-hover-shadow(0 20px 30px 0 rgba(4, 49, 71, 0.5))
+
+    +below(826px)
+      height: auto
+
+    &:hover
+      .news-read-more
+        &:after
+          bottom: -6px
+
+    .news-date
+      define-font(museo, (14/rfs)rem, dim, 1.14, normal, 0.5px)
+      opacity 0.5
+
+    .news-title
+      define-font(museo, (20/rfs)rem, black, 1.4, bold)
+      margin-top: (14/rfs)rem
+      opacity 0.8
+      text-transform uppercase
+
+    .news-description
+      define-font(mono, (15/rfs)rem, black, 1.6)
+      margin-top: (18/rfs)rem
+
+    .news-read-more
+      define-font(museo, (14/rfs)rem, dim, 1.14, normal, 0.5px)
+      text-transform: uppercase
+      position: absolute
+      left: (32/rfs)rem;
+      bottom: (21/rfs)rem;
+
+      &:after
+        content: ''
+        width: 100%
+        height: 1px
+        background-color: dim
+        position: absolute
+        bottom: 0
+        left: 0
+        transition: bottom 0.25s ease
+
+    .news-item-image-container
+      font-size: 0
+      column(4/8, $gutter: guttero23)
+      text-align: center
+
+    .news-item-image
+      width: 100%
+
+    .news-item-container
+      position: relative
+      width: (368/rfs)rem
+      box-sizing: border-box
+      padding: (30/rfs)rem (34/rfs)rem
+
+      +below(826px)
+        width: auto
+        padding-bottom: (64/rfs)rem
+    &.with-image
+      .news-date
+        opacity 0.5
+        color: white
+
+    &.with-image
+      .news-title,
+      .news-description,
+      .news-read-more
+        color: white
+        opacity 1
+
+      .news-read-more
+        &:after
+          background-color: white

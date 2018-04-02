@@ -1,0 +1,135 @@
+[
+  {
+    "is-article-content": false,
+    "type": "about-card",
+    "time": "10",
+    "investments": 190000,
+    "target": 12000000,
+    "rating": "$",
+    "percent": 20,
+    "currency": "$",
+    "city": "Krasnodar region",
+    "min_sum": "3000",
+    "investors": "34"
+  },
+  {
+    "is-article-content": false,
+    "type": "head",
+    "projectType": "MAJOR PROJECT",
+    "projectTypeId": 1,
+    "title": "Industrial project, increasing of production of LLC \"Rosmet\"",
+    "rating": "Aa",
+    "authorUrl": "/images/author/rosmet.png",
+    "authorName": "Aleksey Trenkaev",
+    "authorPosition": "Business executive and major stockholder of Rosmet LLC",
+    "websiteLink": "www.rosmet23.com",
+    "background": "/images/data/project-about-background-3.jpg"
+  },
+  {
+    "type": "title",
+    "text": "About"
+  },
+  {
+    "type": "text",
+    "text": "\"Rosmet\" is the factory of fasteners  — today is the largest and the only Russian manufacturer of high-quality fasteners and hardware products for roofing, interior finishes, Windows. The uniqueness of our plant is that we have the whole production cycle in one place. Today is launched the first stage of the plant that allows to produce up to 300 tons fasteners products per month. The main advantages of working with our company is high quality service, wide range of products and beneficial terms of delivery . Constant analysis of our industry sector and research of customers needs allows us to perform a reliable supply of quality products that meet all market demands. After launch of the second stage, the number of products will reach up to 800 tons per month."
+  },
+  {
+    "type": "video",
+    "src": "youtu.be/0XsJOrVMUcs"
+  },
+  {
+    "type": "title",
+    "text": "The purpose seeking of investment"
+  },
+  {
+    "type": "list",
+    "listItems": [
+      "To reducing death budget of disadvantageous loan.",
+      "To  finish the  2nd stage of production , and expand business to increase  volume production  from 180 to 600 tons per month."
+    ]
+  },
+  {
+    "type": "big-quote-left-side",
+    "title": "The first month of interest payout",
+    "bigLetter": "2018",
+    "smallLetter": "February"
+  },
+  {
+    "type": "title",
+    "text": "The use of investments"
+  },
+  {
+    "type": "text",
+    "text": "The full repayment of debts to creditors and banks of $ 6,154 million is January 2018."
+  },
+  {
+    "type": "text",
+    "text": "Full payment for the supply and installation of equipment of the stage 2 , and the formation of working capital to expand production. March, may and July 2018 (1,230 1,230 March, may and July 3,692) total $ 6,154 million."
+  },
+  {
+    "type": "title",
+    "text": "The current state of the business"
+  },
+  {
+    "type": "text",
+    "text": "The year business was formed is 2005 <br> Start of construction of its own facility  in 2013 Southern Russia . The Completion of construction and commissioning — II quarter 2016 . Project received full support from the regional authorities providing tax incentives."
+  },
+  {
+    "type": "simple-image",
+    "src": "/images/content/flags.jpg",
+    "alt": "Flags"
+  },
+  {
+    "type": "title",
+    "text": "Team"
+  },
+  {
+    "type": "text",
+    "text": "Total staff of 25 people"
+  },
+  {
+    "type": "title",
+    "text": " Finished products and Technology"
+  },
+  {
+    "type": "text",
+    "text": "In Russia dos not having analogues modern production technology is roofing screws hardware-based PR-VA Taiwan (Sheen Tzar, TX, Sun Young). Finished products — painted roofing screws, universal screws."
+  },
+  {
+    "type": "title",
+    "text": "Business indexes"
+  },
+  {
+    "type": "table",
+    "headers": ["Indicators", "Units", "Values"],
+    "data": [
+      ["Production capacity", "tons/month. (t/year)", "180 (2160)"],
+      ["Clean profit  of 1 t. product.", "USD/MT", "1120"],
+      ["Expected annual income (excluding payments creditors % of )", "USD", "2 419 000"],
+      ["The price of the company assets", "USD", "> 9 600 000"],
+      ["Estimated value of the business (excluding debt)", "USD", "16 300 000"],
+      ["Reference: the company's total debt", "USD", "5 600 000"]
+    ]
+  },
+  {
+    "type": "big-quote_left-side-indicators",
+    "left": {
+      "title": "Model <br> investment:",
+      "numb": false,
+      "val": "OB1",
+      "rightText": "THE PERCENTAGE OF <br> COMPANY",
+      "bottomText": "You will receive 1% of the company for each invested 10&nbsp;000&nbsp;$"
+    },
+    "right": {
+      "title": "Period of the option <br> on payment of incomes:",
+      "val": "5",
+      "rightText": "YEARS",
+      "bottomText": "The period of full payback and exit to the profit stage."
+    }
+  },
+  {
+    "type": "text",
+    "text": "<a target='_blank' href='https://drive.google.com/drive/folders/0B7jBoD3kGmmDZWNfdHBTSDFoYnM?usp=sharing' > see projects details  </a>",
+    "class": "info-after-indicators"
+  }
+]

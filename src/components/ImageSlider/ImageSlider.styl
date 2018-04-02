@@ -1,0 +1,73 @@
+.c-image-slider
+  position: static
+  width: 100%
+
+  .slides-container
+    overflow: hidden
+
+  .slides
+    font-size: 0
+    white-space: nowrap
+    position: relative
+    transition: left 1000ms cubic-bezier(0.86, 0, 0.07, 1) //easeInOutQuint
+
+  .slide
+    display: inline-block
+
+    img
+      width: 100%
+
+  .slide-text-title
+    define-font(museo, (15/rfs)rem, black, (24/rfs)rem, bold)
+    text-transform: uppercase
+
+  .slide-text-description
+    define-font(museo, (12/rfs)rem, black, (18/rfs)rem)
+
+  .slider-footer
+    position: relative
+
+  .slides-text-container
+    position: relative
+
+  .slide-text
+    margin-left: (89/rfs)rem
+    min-height: (130/rfs)rem
+    padding-right: (270/rfs)rem
+    display: none
+    justify-content: center
+    flex-direction: column
+
+    &.active
+      display: flex
+
+  .slider-arrows-container
+    position: absolute
+    top: (33/rfs)rem
+    right: 0
+    display: flex
+    outline: 1px solid gallery
+
+  .arrow
+    padding: (15/rfs)rem (21/rfs)rem
+    cursor: pointer
+    transition: background-color 0.4s linear //easeInOutQuint
+
+    &:hover
+      background-color: lightblue
+
+  .chevron-arrow-left {
+    display: inline-block;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    width: 10px; height: 10px;
+    transform: rotate(-225deg);
+  }
+
+  .chevron-arrow-right {
+    display: inline-block;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    width: 10px; height: 10px;
+    transform: rotate(-45deg);
+  }

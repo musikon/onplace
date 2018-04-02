@@ -1,0 +1,198 @@
+@import "../../images/sprites/slider-arrows.css";
+
+.c-content-animated-slider
+  position: relative
+  overflow: hidden
+  background-color: blueLight
+
+  .content-animated-slider-inner
+    width: 100%
+    position: relative
+    height: 52.8vw
+    margin: 0 auto
+    overflow: hidden
+
+    +below(826px)
+      margin-top: (15/rfs)rem
+
+    &:before
+      content: ''
+      display: inline-block
+      width: 100%
+      height: 15vw
+      top: 95%
+      left: 0
+      background-color: blueDark
+      position: absolute
+
+    &:after
+      content: ''
+      display: inline-block
+      width: 60%
+      height: 9vw
+      top: 84%
+      right: 0
+      background-color: blueDark
+      position: absolute
+
+    .layer-one,
+    .layer-two,
+    .layer-three
+      position: absolute
+      z-index: 3
+
+      img
+        width: 100%
+
+    .layer-one
+      width: 42.5%
+      top: -8.7%
+      will-change: left
+
+    .layer-two
+      width: 59.2%
+      top: -11.2%
+      will-change: right
+
+    .layer-three
+      width: 32%
+      top: 29.3%
+      will-change: right
+
+  .swipeable-container
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+
+    +below(826px)
+      z-index: 350
+
+  .pagination-container
+    position: absolute
+    width: 100%
+    text-align: center
+    font-size: 0
+    z-index: 355
+    bottom: 3.4%;
+
+    .slide-point
+      display: inline-block
+      vertical-align: middle
+      width: (10/rfs)rem
+      height: (10/rfs)rem
+      border: 1px solid white
+      border-radius: 50%
+      margin: 0 5px
+      box-sizing border-box
+      cursor: pointer
+      define-hover-shadow(0 2px 6px 0 rgba(0, 0, 0, 0.4))
+
+      &.active
+        background-color: white
+
+  .slide-text-container
+    top: 11.3%
+    left: 0
+    position: absolute
+    width: 100%
+    height: 100%
+
+  .slide-text-inner
+    define-container()
+    height: 100%
+    position: relative
+
+  .right-text-wrapper
+    border: 1px solid biscay
+    position: absolute
+    right: 0
+    top: 0
+    z-index: 50
+    width: (273/rfs)rem
+    box-sizing: border-box;
+    padding: (17/rfs)rem
+    display: none
+
+    +below(826px)
+      display: none
+
+  .coat
+    width: (90/rfs)rem
+    right: 20%
+    position: absolute
+    z-index: 50
+    margin-top: (-34/rfs)rem
+    display: none
+
+    +below(826px)
+      display: none
+
+  .left-text-wrapper
+    z-index: 50
+    position: absolute
+    top: 0
+    left: 0
+    height: 70%
+    width: 72%
+    define-font(museo, (33/rfs)rem, white, 1.4, bold, 0.5px)
+
+    +below(826px)
+      width: 100%
+      font-size: (14/rfs)rem
+
+    &.third-slide
+      width: 60%
+
+      +below(826px)
+        width: 100%
+
+    .left-text
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      will-change: left
+
+      +below(826px)
+        width: 89%
+        padding: 0 (16/rfs)rem
+
+  .right-top-text
+    define-font(museo, (14/rfs)rem, biscay, 1.71, bold)
+
+  .right-bottom-text
+    define-font(museo, (14/rfs)rem, white, 1.71, bold, 0.6px)
+    text-transform: uppercase
+    margin-top: (7/rfs)rem
+
+
+  .icon-slider-arrows
+    position: absolute
+    bottom: (13/rfs)rem
+    cursor: pointer
+    z-index: 355
+
+    &.inactive
+      cursor: default
+
+  .icon-slider-arrow-left
+    left: (24/rfs)rem
+
+    &.inactive
+      &:hover
+        background-position: -80px 0;
+
+    &:hover
+      background-position: -120px 0;
+
+  .icon-slider-arrow-right
+    right: (24/rfs)rem
+
+    &.inactive
+      &:hover
+        background-position: 0 0;
+
+    &:hover
+      background-position: -40px 0;

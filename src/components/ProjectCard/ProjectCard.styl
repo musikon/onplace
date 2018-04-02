@@ -1,0 +1,480 @@
+.c-about-card-root
+  position absolute
+  z-index 3
+  background #fff
+  width (370/rfs)rem
+  top: (-460/rfs)rem
+  right (-18/rfs)rem
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.2)
+
+
+  &.bottom-fixed
+    position: absolute
+    bottom: 0px
+
+  +below(826px)
+    position: relative
+    top: 0
+    left: 0
+    padding: (16/rfs)rem
+    width: 100%
+    box-sizing: border-box
+
+    .about-card-inner
+      border: solid 1px iron
+
+  .card-top
+    position relative
+    padding-left 6px
+    padding (37/rfs)rem (24/rfs)rem 0px (30/rfs)rem
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    .card-conditions
+      define-font(museo, (11/rfs)rem, black, normal)
+      text-transform uppercase
+      opacity 0.5
+      display block
+
+    .time
+      define-font(museo, (15/rfs)rem, black, normal,bold, 0.4)
+      margin (9/rfs)rem 0px (26/rfs)rem
+      display block
+
+    .card-investments
+      define-font(museo, (34/rfs)rem, black, normal, bold)
+      display block
+      margin (2/rfs)rem 0px (17/rfs)rem
+
+    .card-progress-bar
+      width 100%
+      height (4/rfs)rem
+      background #b8d9f8
+      position: relative
+      .progress
+        height 100%
+        background #4991ee
+        width 0px
+        .progress-target
+          position: absolute;
+          top: 0
+          bottom: 0
+          left: 0%
+          width: (1/rfs)rem
+
+          .progress-target__text
+            position: absolute;
+            top: (-30/rfs)rem
+            left: (-4/rfs)rem
+            define-font(mono, (11/rfs)rem, #007bff, normal, normal, 0)
+            +below(826px)
+              top: (-28/rfs)rem
+              left: (-4/rfs)rem
+
+          svg
+            position: absolute
+            top: (-11/rfs)rem
+            left: (-2/rfs)rem
+
+    .card-target-block
+      margin (20/rfs)rem 0px (6/rfs)rem
+      display flex
+      justify-content space-between
+      +below(826px)
+        flex-wrap: wrap
+      // only for startup card
+      .target-container_startup
+        &~.card-divider
+          margin auto 0px
+          width: 1px
+          height: (92/rfs)rem
+          margin-right: (20/rfs)rem
+          margin-left: (20/rfs)rem
+
+      .target-container
+        opacity: 1
+        +below(826px)
+          margin-bottom: (20/rfs)rem
+
+        .target
+          margin auto 0px
+          .target-money
+            define-font(museo, (22/rfs)rem, black, normal)
+            display block
+            margin (3/rfs)rem 0px 0px
+            margin-bottom: (20/rfs)rem
+            white-space: nowrap
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+            &.target-money_min
+              color: #1e9df2
+              opacity: 0.5
+              margin-bottom: (20/rfs)rem
+            &.target-money_max
+              color: #1e9df2
+      .card-divider
+        margin auto 0px
+        width: 1px
+        height: (72/rfs)rem
+        background #d6dcde
+        margin-right: (20/rfs)rem
+        margin-left: (20/rfs)rem
+        flex-shrink: 0;
+        +below(826px)
+          display: none
+
+      .target-percent
+        margin 0px auto
+        .percent
+          define-font(museo, (22/rfs)rem, #7ed321, normal, bold, 0.6)
+          display block
+          margin-top (3/rfs)rem
+          text-transform uppercase
+
+    .card-city
+      define-font(museo, (15/rfs)rem, black, normal, bold)
+      display block
+      margin (9/rfs)rem 0px (28/rfs)rem
+
+    .sharing
+      position absolute
+      width (56/rfs)rem
+      height (56/rfs)rem
+      background #edefef
+      border-radius (28/rfs)rem
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5)
+      z-index 2
+      right (24/rfs)rem
+      bottom (-56/rfs)rem
+      cursor pointer
+      transition 0.3s
+
+  .card-bottom
+    padding (29/rfs)rem (24/rfs)rem (37/rfs)rem (24/rfs)rem
+    background #1e9df2
+    box-shadow: 0 5px 10px 0 rgba(30,157,242,0.3);
+
+    .min-sum
+      define-font(museo, (11/rfs)rem, white, normal, normal, 0.3px)
+      text-transform uppercase
+      opacity 0.5
+      display block
+      text-align center
+
+    .summa
+      define-font(museo, (22/rfs)rem, white, normal)
+      display block
+      margin (2.5/rfs)rem 0px (20.5/rfs)rem
+      text-align center
+
+    .card-button
+      width 100%
+      border 0px
+      background #fff
+      define-font(museo, (14/rfs)rem, black, normal, bold, 0.9px)
+      text-transform uppercase
+      text-align center
+      border-radius (6/rfs)rem
+      padding (16.5/rfs)rem 0px
+      cursor pointer
+      transition 0.3s
+      border: 1px solid transparent
+      &:hover
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    .card-button:focus
+      outline none
+
+    .investors
+      define-font(museo, (15/rfs)rem, white, normal, bold, 1px)
+      display block
+      text-align center
+      margin-top 18px
+
+
++below(826px)
+  .c-about-card-root
+    position absolute
+    z-index 3
+    background #fff
+    width (370/smrfs)rem
+    top (120/smrfs)rem
+    right (72/smrfs)rem
+    box-shadow: 0 0px 0px 0 rgba(0,0,0, 0)
+    +below(826px)
+      position: relative
+      top: 0
+      left: 0
+      padding: (32/smrfs)rem
+      width: 100%
+      box-sizing: border-box
+
+      .about-card-inner
+        border: solid 1px iron
+
+    .card-top
+      position relative
+      padding-left 6px
+      padding (37/smrfs)rem (24/smrfs)rem 0px (30/smrfs)rem
+      .card-conditions
+        define-font(museo, (11/smrfs)rem, black, normal)
+        text-transform uppercase
+        opacity 0.5
+        display block
+
+      .time
+        define-font(museo, (15/smrfs)rem, black, normal,bold, 0.4)
+        margin (9/smrfs)rem 0px (26/smrfs)rem
+        display block
+
+      .card-investments
+        define-font(museo, (34/smrfs)rem, black, normal, bold)
+        display block
+        margin (2/smrfs)rem 0px (17/smrfs)rem
+
+      .card-progress-bar
+        width 100%
+        height (4/smrfs)rem
+        background #b8d9f8
+        .progress
+          height 100%
+          background #4991ee
+          width 0px
+
+      .card-target-block
+        margin (20/smrfs)rem 0px (6/smrfs)rem
+        display flex
+        justify-content space-between
+        flex-direction: column
+        .target-container
+          opacity: 1
+          .target
+            margin auto 0px
+            .target-money
+              define-font(museo, (22/smrfs)rem, black, normal)
+              display block
+              margin (3/smrfs)rem 0px 0px
+              display: flex
+              flex-direction: row
+              align-items: center
+              justify-content: space-between
+              &.target-money_min
+                color: #1e9df2
+                opacity: 0.5
+                margin-bottom: (20/rfs)rem
+              &.target-money_max
+                color: #1e9df2
+        .card-divider
+          margin auto 0px
+          width: 1px
+          height: (72/smrfs)rem
+          background #d6dcde
+          margin-right: (20/rfs)rem
+          margin-left: (20/rfs)rem
+
+        .target-percent
+          margin auto 0px
+          margin-bottom: (10/rfs)rem
+          .percent
+            define-font(museo, (22/smrfs)rem, #7ed321, normal, bold, 0.6)
+            display block
+            margin-top (3/smrfs)rem
+            text-transform uppercase
+
+      .card-city
+        define-font(museo, (15/smrfs)rem, black, normal, bold)
+        display block
+        margin (9/smrfs)rem 0px (28/smrfs)rem
+
+      .sharing
+        position absolute
+        width (56/smrfs)rem
+        height (56/smrfs)rem
+        background #edefef
+        border-radius (28/smrfs)rem
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5)
+        z-index 2
+        right (24/smrfs)rem
+        bottom (-56/smrfs)rem
+        cursor pointer
+        transition 0.3s
+
+    .card-bottom
+      padding (29/smrfs)rem (24/smrfs)rem (37/smrfs)rem (24/smrfs)rem
+      background #1e9df2
+      .min-sum
+        define-font(museo, (11/smrfs)rem, white, normal, normal, 0.3px)
+        text-transform uppercase
+        opacity 0.5
+        display block
+        text-align center
+
+      .summa
+        define-font(museo, (22/smrfs)rem, white, normal)
+        display block
+        margin (2.5/smrfs)rem 0px (20.5/smrfs)rem
+        text-align center
+
+      .card-button
+        width 100%
+        border 0px
+        background #fff
+        define-font(museo, (14/smrfs)rem, black, normal, bold, 0.9px)
+        text-transform uppercase
+        text-align center
+        border-radius (6/smrfs)rem
+        padding (16.5/smrfs)rem 0px
+        cursor pointer
+        transition 0.3s
+      .card-button:focus
+        outline none
+
+      .investors
+        define-font(museo, (15/smrfs)rem, white, normal, bold, 1px)
+        display block
+        text-align center
+        margin-top 18px
+
++below(580px)
+  .c-about-card-root
+    position absolute
+    z-index 3
+    background #fff
+    width (370/rfs)rem
+    top (120/rfs)rem
+    right (72/rfs)rem
+    +below(826px)
+      position: relative
+      top: initial
+      left: 0
+      padding: (32/rfs)rem
+      padding: (16/rfs)rem
+      width: 100%
+      box-sizing: border-box
+
+      .about-card-inner
+        border: solid 1px iron
+
+    .card-top
+      position relative
+      padding-left 6px
+      padding (37/rfs)rem (24/rfs)rem 0px (30/rfs)rem
+      .card-conditions
+        define-font(museo, (11/smrfs)rem, black, normal)
+        text-transform uppercase
+        opacity 0.5
+        display block
+
+      .time
+        define-font(museo, (15/rfs)rem, black, normal,bold, 0.4)
+        margin (9/rfs)rem 0px (26/rfs)rem
+        display block
+
+      .card-investments
+        define-font(museo, (34/rfs)rem, black, normal, bold)
+        display block
+        margin (2/rfs)rem 0px (17/rfs)rem
+
+      .card-progress-bar
+        width 100%
+        height (4/rfs)rem
+        background #b8d9f8
+        .progress
+          height 100%
+          background #4991ee
+          width 0px
+
+      .card-target-block
+        margin (20/rfs)rem 0px (6/rfs)rem
+        display flex
+        justify-content space-between
+        .target
+          margin auto 0px
+          .target-money
+            define-font(museo, (22/rfs)rem, black, normal)
+            display block
+            margin (3/rfs)rem 0px 0px
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between;
+        .card-divider
+          margin auto 0px
+          width: 1px
+          height: (72/rfs)rem
+          background #d6dcde
+          margin-right: (20/rfs)rem
+          margin-left: (20/rfs)rem
+
+        .target-percent
+          margin auto 0px
+          margin-bottom: (20/rfs)rem
+          .percent
+            define-font(museo, (22/smrfs)rem, #7ed321, normal, bold, 0.6)
+            display block
+            margin-top (3/smrfs)rem
+            text-transform uppercase
+
+      .card-city
+        define-font(museo, (15/rfs)rem, black, normal, bold)
+        display block
+        margin (9/rfs)rem 0px (28/rfs)rem
+
+      .sharing
+        position absolute
+        width (56/rfs)rem
+        height (56/rfs)rem
+        background #edefef
+        border-radius (28/rfs)rem
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.5)
+        z-index 2
+        right (24/rfs)rem
+        bottom (-56/rfs)rem
+        cursor pointer
+        transition 0.3s
+
+    .card-bottom
+      padding (29/rfs)rem (24/rfs)rem (37/rfs)rem (24/rfs)rem
+      background #1e9df2
+      .min-sum
+        define-font(museo, (11/rfs)rem, white, normal, normal, 0.3px)
+        text-transform uppercase
+        opacity 0.5
+        display block
+        text-align center
+
+      .summa
+        define-font(museo, (22/rfs)rem, white, normal)
+        display block
+        margin (2.5/rfs)rem 0px (20.5/rfs)rem
+        text-align center
+
+      .card-button
+        width 100%
+        border 0px
+        background #fff
+        define-font(museo, (14/rfs)rem, black, normal, bold, 0.9px)
+        text-transform uppercase
+        text-align center
+        border-radius (6/rfs)rem
+        padding (16.5/rfs)rem 0px
+        cursor pointer
+        transition 0.3s
+      .investors
+        define-font(museo, (15/rfs)rem, white, normal, bold, 1px)
+        display block
+        text-align center
+        margin-top 18px
+
+// when sticky - set top offset
+.stickyCard_fixed .c-about-card-root
+  top: 120px
+
+// stick to bottom
+.bottom-fixed .c-about-card-root
+  top: initial
+  bottom: (80/rfs)rem
+  position: absolute;
+

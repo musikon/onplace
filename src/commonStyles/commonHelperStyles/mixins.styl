@@ -1,0 +1,61 @@
+define-font(family, size, color, lineHeight = normal, weight = normal, letterSpacing = 0)
+  font-family: family
+  font-size: size
+  font-weight: weight
+  color: color
+  line-height: lineHeight
+  letter-spacing: letterSpacing
+
+define-container(width = (1136/rfs)rem)
+  max-width: width
+  margin: 0 auto
+
+define-hover-shadow(shadow = 0 (20/rfs)rem (30/rfs)rem 0 rgba(105, 150, 171, 0.5), duration = 0.25s, function = ease)
+  transition: box-shadow duration function
+
+  &:hover
+    box-shadow: shadow;
+
+triangle(width = 10px, height = 10px, direction = 'bottom', color = #000)
+  width 0
+  height 0
+  background 0
+  border-style solid
+
+  directions = {
+    top: {
+      border-width: 0 (width * .5) height (width * .5),
+      border-color: transparent transparent color transparent
+    },
+    topRight: {
+      border-width: 0 width height 0,
+      border-color: transparent color transparent transparent
+    },
+    right: {
+      border-width: (height * .5) 0 (height *.5) width,
+      border-color: transparent transparent transparent color
+    },
+    bottomRight: {
+      border-width: 0 0 height width,
+      border-color: transparent transparent color transparent
+    },
+    bottom: {
+      border-width: height (width * .5) 0 (width * .5),
+      border-color: color transparent transparent transparent
+    },
+    bottomLeft: {
+      border-width: width 0 0 height,
+      border-color: transparent transparent transparent color
+    },
+    left: {
+      border-width: (height * .5) width (height * .5) 0,
+      border-color: transparent color transparent transparent
+    },
+    topLeft: {
+      border-width: height width 0 0,
+      border-color: color transparent transparent transparent
+    }
+  }
+
+  styles = directions[direction]
+  {styles}

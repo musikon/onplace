@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!--Icons from directory ""-->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="98" viewBox="0 0 48 98">
+  <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="49" width="48" version="1.1" viewBox="0 0 48 49" id="factory" y="0">
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+      <ellipse id="factory-path-1" cy="24" cx="24" rx="24" ry="24"/>
+      <mask id="factory-mask-2" maskContentUnits="userSpaceOnUse" height="48" width="48" y="0" x="0" maskUnits="objectBoundingBox" fill="white">
+        <use xlink:href="#factory-path-1"/>
+      </mask>
+      <polygon id="factory-path-3" points="12 22 20 25.231 20 36 12 36"/>
+      <mask id="factory-mask-4" maskContentUnits="userSpaceOnUse" height="14" width="8" y="0" x="0" maskUnits="objectBoundingBox" fill="white">
+        <use xlink:href="#factory-path-3"/>
+      </mask>
+      <polygon id="factory-path-5" points="19 22 27 25.231 27 36 19 36"/>
+      <mask id="factory-mask-6" maskContentUnits="userSpaceOnUse" height="14" width="8" y="0" x="0" maskUnits="objectBoundingBox" fill="white">
+        <use xlink:href="#factory-path-5"/>
+      </mask><rect id="factory-path-7" y="18" x="26" height="18" width="6"/>
+      <mask id="factory-mask-8" maskContentUnits="userSpaceOnUse" height="18" width="6" y="0" x="0" maskUnits="objectBoundingBox" fill="white">
+        <use xlink:href="#factory-path-7"/></mask>
+    </defs><g id="factory-Page-1" fill-rule="evenodd" fill="none">
+    <g id="factory-L&#x421;-Copy-8" stroke="#1E9DF2" transform="translate(-452 -741)">
+      <g id="factory-&#x438;&#x43A;&#x43E;&#x43D;&#x43A;&#x438;" transform="translate(248 72)">
+        <g id="factory-Group-3" transform="translate(204 669.22)">
+          <g stroke-width="2"><use id="factory-Oval-7" xlink:href="#factory-path-1" mask="url(#factory-mask-2)"/>
+            <use id="factory-Rectangle-13" xlink:href="#factory-path-3" mask="url(#factory-mask-4)"/>
+            <use id="factory-Rectangle-13" xlink:href="#factory-path-5" mask="url(#factory-mask-6)"/>
+            <use id="factory-Rectangle-13" xlink:href="#factory-path-7" mask="url(#factory-mask-8)"/>
+          </g><path id="factory-Combined-Shape" d="m30 16c0.552 0 1-0.448 1-1s-0.448-1-1-1-1 0.448-1 1 0.448 1 1 1zm3-1c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  </svg>
+  <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="49" width="48" version="1.1" viewBox="0 0 48 49" id="russia-map" y="49">
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+      <ellipse id="russia-map-path-1" cy="24" cx="24" rx="24" ry="24"/>
+    <mask id="russia-map-mask-2" maskContentUnits="userSpaceOnUse" height="48" width="48" y="0" x="0" maskUnits="objectBoundingBox" fill="white">
+      <use xlink:href="#russia-map-path-1"/>
+    </mask>
+    </defs>
+    <g id="russia-map-Page-1" fill-rule="evenodd" fill="none">
+    <g id="russia-map-L&#x421;-Copy-8" stroke="#1E9DF2" transform="translate(-396 -741)">
+
+    </g>
+  </g>
+  </svg>
+</svg>

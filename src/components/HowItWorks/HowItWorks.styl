@@ -1,0 +1,240 @@
+.c-how-it-works-root
+  background-color: sky
+
+  ol
+    list-style none
+
+  &.en
+    .right-column
+      .steps-container
+        height: (506/rfs)rem
+
+        +below(826px)
+          height: auto
+
+  +below(826px)
+    padding: 0 (16/rfs)rem
+
+  .navigation-wrapper
+    +below(826px)
+      height: 82px
+
+  .navigation
+    height: 82px
+    display: flex
+    box-sizing border-box
+    background-color: sky
+    justify-content: space-around
+    padding-top: (32/rfs)rem
+
+    &.fixed
+      position: fixed
+      top: 0
+      left: 0
+      width: 100%
+      z-index: 400
+
+  .navigation-item
+    define-font(mono, (12/rfs)rem, gray, 1, bold, 1.1px)
+    text-transform: uppercase
+    padding: 0 (13/rfs)rem
+    padding-bottom: (26/rfs)rem
+    margin-right: (4/rfs)em
+    display: flex
+    cursor: pointer
+    justify-content: space-around
+
+    &_white
+      color: white
+      opacity: 0.5
+
+    &.active
+      color: black
+      border-bottom: 3px solid blue
+
+    &:hover
+      color: black
+
+  .simple-steps-container
+    clearfix()
+    margin-top: (78/rfs)rem
+
+    .simple-step-item
+      column(4/12, $gutter: gutter)
+
+      +below(826px)
+        column(1/1)
+        margin-bottom: (25/rfs)rem
+
+    .simple-step-item-top
+      define-font(mono, (30/rfs)rem, blue, (34/rfs)rem)
+      opacity: 0.8
+
+    .step-number
+      define-font(mono, (64/rfs)rem, blue, (72/rfs)rem)
+
+    .simple-step-item-bottom
+      define-font(mono, (15/rfs)rem, black, (24/rfs)rem)
+      margin-top: (28/rfs)rem
+
+  .button-container
+    margin-top: (80/rfs)rem
+
+    .button-inner
+      margin: 0 auto
+      width: (230/rfs)rem
+
+  .how-it-works-inner
+    define-container()
+    padding-top: (128/rfs)rem
+    padding-bottom: (87/rfs)rem
+
+  .columns-container
+    clearfix()
+    margin-top: (30/rfs)rem
+
+  .column
+    column(4/12, $gutter: gutter)
+    padding-top: (66/rfs)rem
+
+    +below(826px)
+      column(1/1)
+      padding-top: (32/rfs)rem
+
+  .column-title
+    define-font(mono, (14/rfs)rem, black, 1.14, normal, 0.5px)
+    text-transform: uppercase
+    text-align: center
+
+  .steps-container
+    margin-top: (28/rfs)rem
+
+  .step
+    define-font(mono, (15/rfs)rem, black, 1.6)
+    padding-left: (50/rfs)rem
+    position: relative
+    opacity: 0.8
+    margin-bottom: (31/rfs)rem
+
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      top: (-4/rfs)rem
+      width: (32/rfs)rem
+      height: (32/rfs)rem
+      background-color: blue
+      border-radius: 50%
+      text-align: center
+      word-spacing: 0
+      define-font(mono, (20/rfs)rem, white, (32/rfs)rem, bold, 0)
+
+  .icon-container
+    +below(826px)
+      display: none
+
+  .left-column
+    counter-reset: left-column-counter
+
+    .step
+      &:before
+        counter-increment: left-column-counter
+        content: counter(left-column-counter)
+
+    .icon-container
+      text-align: right
+
+      img
+        position: relative
+        top: (-24/rfs)rem
+
+  .right-column
+    counter-reset: right-column-counter
+
+    .step
+      &:before
+        counter-increment: right-column-counter
+        content: counter(right-column-counter)
+
+      &:nth-child(2)
+        margin-bottom: (55/rfs)rem
+
+      &:nth-child(3)
+        margin-bottom: (103/rfs)rem
+
+  .center-column
+    text-align: center
+    box-shadow: 0 (25/rfs)rem (38/rfs)rem 0 rgba(105, 150, 172, 0.5)
+    padding-top: 0
+    margin-top: (66/rfs)rem
+
+    .top-center-column
+      background-color: blue
+      box-sizing: border-box
+      padding: (74/rfs)rem (15/rfs)rem (61/rfs)rem
+
+      .step
+        padding-left: 0
+        color: white
+        margin-bottom: (25/rfs)rem
+
+        &:before
+          display: none
+
+        &.bold
+          font-weight: bold
+          padding: 0 (10/rfs)rem
+
+    .column-title
+      font-weight: bold
+      color: wildSand
+      margin-bottom: (35/rfs)rem
+
+    .bottom-center-column
+      counter-reset: center-column-counter 4
+      margin: (71/rfs)rem 0
+      padding: 0 (25/rfs)rem
+
+      +below(826px)
+        display: none
+
+      .step
+        color: black
+        padding-left: 0
+        padding-top: 0
+
+        &:first-child
+          margin-bottom: (85/rfs)rem
+
+        &:before
+          counter-increment: center-column-counter
+          content: counter(center-column-counter)
+          left: 50%
+          top: (-46/rfs)rem
+          margin-left: (-16/rfs)rem
+
+  .strong-text
+    font-size: (20/rfs)rem
+
+  .column-steps-wrapper
+    min-height: (733/rfs)rem
+
+    +below(826px)
+      min-height: auto
+
+  .finish-text-container
+    margin-left: (49/rfs)rem
+
+  .finish-text-normal
+    define-font(mono, (15/rfs)rem, blue, 1.6, bold)
+
+  .finish-text-large
+    define-font(mono, (154/rfs)rem, blue, 1, normal, (6.4/rfs)rem)
+    opacity: 0.16
+    margin-top: (6/rfs)rem
+    margin-left: (-9/rfs)rem
+
+  .finish-text-middle
+    define-font(mono, (14/rfs)rem, blue, 1.43, bold, 0.5px)
+    opacity: 0.2
+    margin-top: (-13/rfs)rem

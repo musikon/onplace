@@ -1,0 +1,44 @@
+.admin-navigation-root
+  background #19395f
+  width: 100%
+  padding-left (72/rfs)rem
+  padding-right (50/rfs)rem
+
+  .logo
+    margin (9/rfs)rem 0px (40/rfs)rem
+
+  .admin-avatar
+    width (48/rfs)rem
+    height (48/rfs)rem
+    position relative
+    overflow hidden
+    border-radius (26/rfs)rem
+    img
+      width 100%
+      height 100%
+      object-fit cover
+
+  .admin-name
+    define-font(museo, (15/rfs)rem, white, 1.87, bold, 0.6px)
+    opacity 0.5
+    margin (5/rfs)rem 0px (58/rfs)rem
+
+  .navigation
+    margin-bottom (26/rfs)rem
+    cursor pointer
+    opacity 0.5
+    white-space: nowrap
+
+    .navigation-img
+      display inline-block
+      vertical-align middle
+      margin-right (12/rfs)rem
+
+    .navigation-text
+      define-font(museo, (15/rfs)rem, white, 1.87, bold, 0.6px)
+
+  .navigation:last-child
+    margin 0px
+
+  .navigation-active
+    opacity 1

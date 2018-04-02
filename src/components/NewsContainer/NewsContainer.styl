@@ -1,0 +1,50 @@
+.c-news-container
+  padding: 0
+  define-container((1280/rfs)rem)
+  z-index: 1
+  padding-right: (72/rfs)rem
+  box-sizing: border-box
+
+  .news-container__item-container
+    .c-news-card-root
+      margin-bottom: (16/rfs)rem
+
+  .news-item-container_1
+    clearfix()
+
+  .news-item-container_2
+    clearfix()
+    column(8/12, $gutter: gutter)
+
+    .c-news-card-root
+      column(6/12, $gutter: gutteri23)
+
+      &:nth-child(3n)
+        span(12/12)
+        //border: 5px solid red
+
+      &:nth-child(2n)
+        margin-right: 0%
+
+  .news-item-container_3
+    column(4/12, $gutter: gutter)
+    clearfix()
+
+  +below(826px)
+
+    .news-item-container_2
+      clearfix()
+      column(1/1, $gutter: gutter)
+
+      .c-news-card-root
+        column(1/1, $gutter: gutteri23)
+
+        &:nth-child(3n)
+          span(1/1)
+
+        &:nth-child(2n)
+          margin-right: 0%
+
+    .news-item-container_3
+      column(1/1, $gutter: gutter)
+      clearfix()

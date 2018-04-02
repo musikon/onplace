@@ -1,0 +1,49 @@
+.root-about-tabs
+  width (656/rfs)rem
+  +below(tablet_max)
+    width 100%
+    padding: 0 (32/rfs)rem
+
+  .tab
+    display inline-block
+    vertical-align top
+    margin-right (45/rfs)rem
+    color gray
+    +below(370px)
+      margin-right (20/rfs)rem
+
+    .tab-name
+      define-font(museo, (12/rfs)rem, normal, normal, bold, 1.1px)
+      text-transform uppercase
+      cursor pointer
+
+      +below(tablet_max)
+        font-size (16/rfs)rem
+      +below(mobile_max)
+        font-size (12/rfs)rem
+      +below(370px)
+        font-size (10/rfs)rem
+
+    .tab-quantity
+      margin-left (6/rfs)rem
+      define-font(museo, (12/rfs)rem, normal, normal, normal, 1.1px)
+
+      +below(tablet_max)
+        font-size (16/rfs)rem
+      +below(mobile_max)
+        font-size (12/rfs)rem
+      +below(370px)
+        font-size (10/rfs)rem
+
+  .tab:last-child
+    margin-right 0px
+
+  .tab-active
+    color black
+    .tab-border
+      width 100%
+      height 3px
+      background #423b30
+      margin-top (10/rfs)rem
+
+

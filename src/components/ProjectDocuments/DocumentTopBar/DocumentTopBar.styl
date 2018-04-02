@@ -1,0 +1,37 @@
+.root-document-top-bar
+  width 100%
+  background #f2f9fb
+  display flex
+  justify-content space-between
+  position relative
+  padding (10.5/rfs)rem 0px
+
+  .left-side
+    margin auto 0px
+
+    .drop-down-menu
+      cursor pointer
+      display inline-block
+      vertical-align middle
+      margin-left (24/rfs)rem
+
+      +below(mobile_max)
+        display block
+
+      .menu
+        define-font(museo, (12/rfs)rem, black, normal, normal, 0.7px)
+        text-transform uppercase
+
+        +below(mobile_max)
+          define-font(museo, (10/rfs)rem, black, normal, normal, 0.7px)
+      .menu-icon
+        display inline-block
+        vertical-align middle
+      .title-menu
+        display inline-block
+        vertical-align middle
+      .sort
+        opacity 0.5
+
+  .right-side
+    margin auto 0px

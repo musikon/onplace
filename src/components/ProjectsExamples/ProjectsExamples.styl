@@ -1,0 +1,187 @@
+.c-projects-examples-root
+  define-container()
+
+  +below(825px)
+    padding: 0 (16/rfs)rem
+
+  .projects-container
+    margin-top: (50/rfs)rem
+    clearfix()
+
+    .project-item
+      white-space normal
+      column(4/12, $gutter: gutter)
+      text-decoration: none
+      define-hover-shadow()
+      background: white
+
+      +below(825px)
+        column(1/1, $gutter: gutter)
+        margin-bottom: (32/rfs)rem
+
+      &:hover
+        .header
+          border-color: transparent
+
+        .footer
+          border: none
+          height: (94/rfs)rem
+          padding-left: 1px
+          padding-right: 1px
+
+        .footer-left-column
+          .footer-left-column-overlay
+            left: -1px
+            padding-right: 1px
+
+            &:before
+              width: 100%
+
+      .header
+        height: (243/rfs)rem
+        border-top: solid 1px iron
+        border-left: solid 1px iron
+        border-right: solid 1px iron
+        position: relative
+        overflow: hidden;
+
+        &:after
+          content: ' ';
+          background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) )
+          position: absolute
+          bottom: 0
+          height: 2.25rem
+          left: 0
+          right: 0
+
+      .information
+        position: relative
+        display: flex
+        justify-content: space-between
+
+      .type
+        define-font(museo, (12/rfs)rem, dim, 1, normal, 0.3px)
+        text-transform: uppercase
+        padding-left: (23/rfs)rem
+        padding-top: (20/rfs)rem
+        max-width 125px
+
+      .note
+        padding: (8/rfs)rem (14/rfs)rem
+        min-width: (70/rfs)rem
+        position: relative
+        right: -1px
+        top: -1px
+        background #f2f9fb
+        position relative
+
+        .question
+          position absolute
+          top (5/rfs)rem
+          right (9/rfs)rem
+          width (14/rfs)rem
+          height (14/rfs)rem
+
+      .note-small-text
+        define-font(museo, (9/rfs)rem, black, 1)
+        opacity 0.8
+        text-transform: uppercase
+
+      .note-large-text
+        margin-top: (3/rfs)rem
+        define-font(museo, (18/rfs)rem, black, 1, bold)
+        opacity 0.8
+        text-transform uppercase
+
+      .g-content-title,
+      .g-content-description
+        padding: 0 (20/rfs)rem
+
+      .g-content-title
+        margin-top: (16/rfs)rem
+
+      .g-content-description
+        margin-top: (17/rfs)rem
+        opacity: 0.8;
+
+      .image-container
+        font-size: 0
+        position: relative
+        z-index: 3
+
+      .image
+        width: 100%
+
+      .footer
+        display: flex
+        height: (93/rfs)rem
+        border-bottom: solid 1px iron
+        border-left: solid 1px iron
+        border-right: solid 1px iron
+
+      .footer-small-text
+        define-font(museo, (11/rfs)rem, dim, 1, normal, 0.3px)
+        text-transform: uppercase
+
+      .footer-very-small-text
+        define-font(museo, (9/rfs)rem, dim, 1, normal, 0.3px)
+        text-transform: uppercase
+
+      .footer-large-text
+        define-font(mono, (22/rfs)rem, black, 1)
+
+        .currency
+          font-family rouble
+          opacity 0.9
+
+      .footer-left-column
+        width: 61%
+        position: relative
+
+        .footer-left-column-overlay
+          position: absolute
+          left: 0
+          top: 0
+          height: 100%
+          background-color: iron
+
+          &:before
+            position: absolute
+            content: ''
+            width: 0
+            height: 100%
+            left: 0
+            top: 0
+            background-color: blue
+            transition: width 0.4s cubic-bezier(0.86, 0, 0.07, 1) //easeInOutQuint
+
+        .footer-left-column-inner
+          position: absolute
+          width: 100%
+          left: 0
+          top: 0
+          padding-top: (28/rfs)rem
+          padding-left: (21/rfs)rem
+
+        .footer-large-text
+          margin-top: (5/rfs)rem
+
+      .footer-right-column
+        position: relative
+        padding-top: (28/rfs)rem
+        padding-left: (23/rfs)rem
+
+        &:before
+          content: ''
+          width: 1px
+          height: 100%
+          background-color: iron
+          position: absolute
+          top: 0
+          left 0
+
+        .footer-large-text
+          margin-top: (5/rfs)rem
+          color: blue
+          font-weight: bold
+          letter-spacing: 0.6px

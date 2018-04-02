@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280px" height="425px" viewBox="0 0 1280 425" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="375" cy="243" r="6"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.262745098   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="573" cy="307" r="6"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.262745098   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="951" cy="120" r="24"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.262745098   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="регистрация_инвестора" transform="translate(0.000000, -425.000000)">
+            <g id="Group-2" transform="translate(-1.000000, 425.000000)">
+                <polygon id="Path-2" fill="#19395F" points="1 424.41732 275 327.862996 440.980469 333.597656 566.9375 252.832115 779.980469 252.832115 1040.98047 167.597656 1281 0 1281 454.330352 1 456.492187"></polygon>
+                <polygon id="Path-2" fill="#1E9DF2" opacity="0.595907183" points="0.9765625 422.605032 162.01356 307.704975 374.976562 243.292936 572.976562 308.425432 950.945312 114.764486 1185.82031 114.764484 1280.97656 55 1280.97656 433.077074 0.9765625 436.492188"></polygon>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F64300" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#F64300" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#F64300" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <circle id="Oval" fill="#FFFFFF" cx="951" cy="120" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,535 @@
+.c-article-content
+  +below(825px)
+    padding: 0 (16/rfs)rem
+
+  .g-article-page-title
+    define-font(museo, (24/rfs)rem , black, 1.5, bold)
+    margin-bottom: (35/rfs)rem
+
+    &:before
+      display: block
+      content: ''
+      width: (64/rfs)rem
+      height: (3/rfs)rem
+      background-color: #1f9df1
+      position: relative
+      top: (-11/rfs)rem
+      left: (-2/rfs)rem
+
+  .article-page-title
+    define-font(museo, (34/rfs)rem , black, 1.06, bold)
+    margin-bottom: (30/rfs)rem
+    margin-top: (55/rfs)rem
+
+  .article-content-image-container
+    margin-bottom: (45/rfs)rem
+
+    .image
+      width: (656/rfs)rem
+      height: auto
+      margin-bottom: (25/rfs)rem
+      +below(826px)
+        width: 100%
+        height: auto
+
+    .image-description
+      define-font(museo, (15/rfs)rem , black, 1.6, weight = normal)
+
+    .image-author
+      define-font(museo, (12/rfs)rem , middleGray, 2)
+
+  .article-content__simple-image-container
+    margin-bottom: (60/rfs)rem
+    .image
+      width: 100%
+      height: auto
+
+  .article-content-text
+    define-font(conqSans, (20/rfs)rem , black, 1.7, 300, (0.05/rfs)rem )
+    margin-bottom: (40/rfs)rem
+
+    strong
+      font-weight bold
+
+    &.info-after-indicators
+      position: relative
+      top: (-15/rfs)rem
+
+    a
+      color: blue
+      text-decoration: none
+      cursor: pointer
+      transition: 0.25s ease;
+      &:hover
+        color: darken(blue, 10)
+        text-decoration: underline;
+
+  .article-page-h3
+    define-font(museo, (34/rfs)rem , black, 1.06, bold, (0.5/rfs)rem )
+    margin-top: (45/rfs)rem
+    margin-bottom: (30/rfs)rem
+
+  .article-content-quote
+    define-font(conqSans, (20/rfs)rem , black, 1.7, 300, (1/rfs)rem )
+    margin-bottom: (25/rfs)rem
+
+    &.bold
+      define-font(museo, (20/rfs)rem , black, 1.7, 700, (1/rfs)rem )
+
+    &.bold-quote
+      define-font(museo, (20/rfs)rem , black, 1.7, bold )
+
+      &:before
+        display: inline-block
+        content: ' - '
+        define-font(museo, (20/rfs)rem , black, 1.7, bold)
+        margin-right: (13/rfs)rem
+
+    &:before
+      display: inline-block
+      content: ' - '
+      define-font(museo, (20/rfs)rem , black, 1.7, normal )
+      margin-right: (13/rfs)rem
+
+
+  .article-content-big-quote-wrapper
+    background-color: blue
+    padding: (35/rfs)rem 0 (42/rfs)rem 0
+    margin-top: (35/rfs)rem
+    margin-bottom: (40/rfs)rem
+    box-shadow: 0 (20/rfs)rem (30/rfs)rem 0 rgba(30, 157, 242, 0.5)
+    +below(826px)
+      padding: (50/rfs)rem 0 (50/rfs)rem 0
+
+    .article-content-big-quote
+      box-sizing: border-box
+      define-container((950/rfs)rem)
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+
+      .text
+        define-font(museo, (24/rfs)rem, white, 1.5, normal)
+        padding-right: (100/rfs)rem
+        margin-left:  (95/rfs)rem
+        padding-bottom: (15/rfs)rem
+        position: relative
+        +below(826px)
+          margin-left:  (95/rfs)rem
+          padding-right: (50/rfs)rem
+          padding-bottom: (30/rfs)rem
+
+        &:before
+          content: '“'
+          display: block
+          define-font(museo, (112/rfs)rem , white, 1, 700 )
+          position: absolute
+          left: (-90/rfs)rem
+          top: (10/rfs)rem
+          +below(826px)
+            left: (-60/rfs)rem
+            define-font(museo, (70/rfs)rem , white, 1, 700 )
+
+  .article-content-blue-quote-wrapper
+    padding: (35/rfs)rem 0 (42/rfs)rem 0
+    margin-top: (35/rfs)rem
+    margin-bottom: (40/rfs)rem
+    +below(826px)
+      padding: (50/rfs)rem 0 (50/rfs)rem 0
+
+    .article-content-blue-quote
+      box-sizing: border-box
+      define-container((950/rfs)rem)
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+
+      .text
+        define-font(museo, (24/rfs)rem, white, 1.5, normal)
+        padding-right: (100/rfs)rem
+        //margin-left:  (95/rfs)rem
+        padding-bottom: (15/rfs)rem
+        position: relative
+        color: blue
+        +below(826px)
+          margin-left:  (95/rfs)rem
+          padding-right: (50/rfs)rem
+          padding-bottom: (30/rfs)rem
+
+      .author-container
+        padding-right: (20/rfs)rem
+        width: (255/rfs)rem
+        justify-content: flex-end
+        align-items: flex-end
+        +below(826px)
+          justify-conten: center
+          align-items: center
+
+        .author-name
+          define-font(museo, (15/rfs)rem, white, 1.6, 700, (1/rfs)rem)
+          text-transform: uppercase
+          padding-bottom: (4/rfs)rem
+
+        .author-position
+          define-font(museo, (12/rfs)rem, white, 1.5, regular)
+
+  .article-content-list
+    margin-bottom: (20/rfs)rem
+
+    ul
+      padding-left: (110/rfs)rem
+      +below(480px)
+        padding-left: (50/rfs)rem
+      li
+        display: flex
+        define-font(conqSans, (20/rfs)rem , black, 1.7, 300, (0/rfs)rem )
+        margin-bottom: (15/rfs)rem
+        position: relative
+
+        &:before
+          content: ''
+          display: block
+          position: absolute
+          width: (6/rfs)rem
+          height: (6/rfs)rem
+          border-radius: 50%
+          background: blue
+          left: (-20/rfs)rem
+          top: (10/rfs)rem
+
+  .article-content-video
+    position: relative
+    height: auto
+    margin-bottom: (60/rfs)rem
+
+    // container under iframe
+    div
+      width: 41.125rem !important
+      height: 23.125rem !important
+
+      +below(826px)
+        width: 100% !important
+        height: auto !important
+
+  .article-content-table
+    margin-top: (50/rfs)rem
+    margin-bottom: (80/rfs)rem
+
+    thead
+      tr
+        th
+          define-font(museo, (13/rfs)rem , black, 1, bold)
+          opacity: 0.42
+          padding: (15/rfs)rem (20/rfs)rem (15/rfs)rem (0/rfs)rem
+          vertical-align: middle
+          text-align: left
+          +below(480px)
+            padding: (15/hrfs)rem (20/hrfs)rem (15/hrfs)rem (0/hrfs)rem
+
+    tbody
+      tr
+        td
+          border-top: (1/rfs)rem solid rgba(0, 0, 0, 0.1)
+          padding: (15/rfs)rem (20/rfs)rem (15/rfs)rem (0/rfs)rem
+          define-font(museo, (13/rfs)rem , black, 1.1, normal)
+          vertical-align: middle
+
+          a
+            color: blue
+            text-decoration: none
+            cursor: pointer
+            transition: 0.25s ease;
+
+            &:hover
+              color: darken(blue, 10)
+              text-decoration: underline;
+
+          &:first-child
+            width: 55%
+            padding: (15/rfs)rem (130/rfs)rem (15/rfs)rem (0/rfs)rem
+            +below(480px)
+              padding: (15/hrfs)rem (20/hrfs)rem (15/hrfs)rem (0/hrfs)rem
+              word-break: break-all
+
+          &:nth-child(2n)
+            width: 30%
+            padding: (15/rfs)rem (0/rfs)rem (15/rfs)rem (0/rfs)rem
+
+          &:nth-child(3n)
+            width: 15%
+            text-align: left
+            vertical-align: middle
+
+          &:last-child
+            padding: (15/rfs)rem (0/rfs)rem (15/rfs)rem (0/rfs)rem
+  .article-content-big-quote-left-side
+    padding-left: 1px;
+    background: green
+    display: flex
+    align-items: center
+    padding: (20/rfs)rem (50/rfs)rem (20/rfs)rem (20/rfs)rem
+    box-shadow: 0 (20/rfs)rem (30/rfs)rem 0 rgba(125, 211, 32, 0.5)
+    position: relative
+    margin-bottom: (70/rfs)rem
+    flex-wrap: wrap
+    +below(480px)
+      padding: (50/hrfs)rem (20/hrfs)rem (50/hrfs)rem (20/hrfs)rem
+      box-shadow: 0 (20/hrfs)rem (30/hrfs)rem 0 rgba(125, 211, 32, 0.5)
+      flex-direction: column
+      box-sizing: border-box
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      width: 999rem
+      top: 0
+      bottom: 0
+      left: calc(-999rem + 1px)
+      background: green
+      box-shadow: 0 (20/rfs)rem (30/rfs)rem 0 rgba(125, 211, 32, 0.5)
+      +below(480px)
+        box-shadow: 0 (20/hrfs)rem (30/hrfs)rem 0 rgba(125, 211, 32, 0.5)
+        display: none
+
+    .title
+      define-font(museo, (22/rfs)rem , white, 1.55, bold )
+      width: 100%
+      margin-right: (30/rfs)rem
+      flex: 0 1 auto
+      +below(480px)
+        margin-right: (0/hrfs)rem
+        text-align: center
+        margin-bottom: (10/hrfs)rem
+    .bigLetter
+      define-font(conqSans, (156/rfs)rem , white, 1em , 300 )
+      margin-right: (20/rfs)rem
+      display: block
+      position: relative;
+      top: 1rem;
+      flex: 1 1 auto
+      +below(480px)
+        define-font(conqSans, (156/hrfs)rem , white, initial , 300 )
+        height: auto
+        margin-right: (0/hrfs)rem
+        margin-bottom: (10/hrfs)rem
+    .smallLetter
+      define-font(museo, (36/rfs)rem , white, 1, bold, (1.7/rfs)rem )
+      flex: 1 1 auto
+
+  .article-content__big-quote_left-side-indicators
+    clearfix()
+    background: orange
+    display: flex
+    padding: (35/rfs)rem 0 (35/rfs)rem 0
+    box-shadow: 0 (20/rfs)rem (30/rfs)rem 0 rgba(245, 152, 0, 0.5)
+    position: relative
+    margin-bottom: (80/rfs)rem
+    +below(480px)
+      display: block;
+      padding: (35/hrfs)rem 0 (35/hrfs)rem 0
+      box-shadow: 0 (20/hrfs)rem (30/hrfs)rem 0 rgba(245, 152, 0, 0.5)
+      margin-bottom: (80/hrfs)rem
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      width: 999rem
+      top: 0
+      bottom: 0
+      left: calc(-999rem + 1px)
+      background: orange
+      box-shadow: 0 (20/rfs)rem (30/rfs)rem 0 rgba(245, 152, 0, 0.5)
+      +below(480px)
+        display: none
+
+    .divider
+      display: flex
+      height: 100%
+      width: auto
+      position: absolute
+      left: (-15/rfs)rem
+      top: 0
+      +below(480px)
+        display: none
+        transform: rotate(90deg)
+        top: (-18/rfs)rem
+        left: 0
+
+
+      path
+        fill: orange;
+        stroke: rgba(255,255,255, 1);
+        stroke-width: 0.5px;
+
+      path.orange
+        stroke: orange !important
+        height: (2/rfs)rem
+
+    .left
+      z-index: 1;
+      column(6/12, $gutter: gutter)
+      padding-left: 1px;
+      +below(480px)
+        column(1/1, $gutter: gutter)
+        clearfix()
+        padding-left: (20/rfs)rem
+        padding-right: (20/rfs)rem
+        box-sizing: border-box
+        margin-right: 0
+        display: flex
+        align-items: center
+        flex-direction: column
+        margin-bottom: (20/rfs)rem
+
+      .left-container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        height: 100%
+        padding-left: (15/rfs)rem
+      .title
+        define-font(museo, (20/rfs)rem , black, 1.3, bold)
+        margin-bottom: (10/rfs)rem
+        +below(480px)
+          define-font(museo, (20/hrfs)rem , black, 1.3, bold)
+          margin-bottom: (10/hrfs)rem
+
+      .numb-container
+        display: flex
+        justify-content: center
+        align-items: center
+        justify-content: flex-start
+
+        .id
+          define-font(museo, (36/rfs)rem , white, 1.4, normal, (1.7/rfs)rem )
+          align-self: flex-end
+          margin-bottom: (15/rfs)rem
+          +below(480px)
+            define-font(museo, (36/hrfs)rem , white, 1.4, normal, (1.7/hrfs)rem )
+            align-self: flex-end
+            margin-bottom: (15/hrfs)rem
+
+
+        .numb
+          define-font(museo, (94/rfs)rem , white, 1, normal, (7.1/rfs)rem )
+          margin-bottom: (5/rfs)rem
+          position: relative
+          left: (-10/rfs)rem
+          +below(480px)
+            define-font(museo, (94/hrfs)rem , white, 1, normal, (7.1/hrfs)rem )
+            margin-bottom: (5/hrfs)rem
+            left: (-10/hrfs)rem
+
+        .right-text
+          define-font(museo, (14/rfs)rem , white, 1.36, normal, (0.5/rfs)rem )
+          position: relative
+          left: (-15/rfs)rem
+          top: (-10/rfs)rem
+          +below(480px)
+            define-font(museo, (14/hrfs)rem , white, 1.36, normal, (0.5/hrfs)rem )
+            left: (-25/hrfs)rem
+            top: (-10/hrfs)rem
+
+      .desc
+        define-font(museo, (15/rfs)rem , white, 1.47, normal)
+        position: relative
+        top: (-10/rfs)rem
+        padding-right: (40/rfs)rem
+        +below(480px)
+          define-font(museo, (15/hrfs)rem , white, 1.47, normal)
+          top: (-10/hrfs)rem
+          padding-right: (0/hrfs)rem
+          text-align: center
+
+    .right
+      column(6/12)
+      clearfix()
+      box-sizing: border-box
+      padding-left: (80/rfs)rem
+      padding-right: (50/hrfs)rem
+      position: relative
+      +below(520px)
+        padding-left: (60/hrfs)rem
+      +below(480px)
+        column(1/1, $gutter: gutter)
+        box-sizing: border-box
+        padding-left: (20/hrfs)rem
+        padding-right: (20/hrfs)rem
+        text-align: center
+
+      // horizontal line
+      //&:before
+      //  content: ''
+      //  display: block
+      //  position: absolute
+      //  left: (22/rfs)rem
+      //  height: (211/rfs)rem
+      //  border-left: 1px solid rgba(255, 255, 255, 0.7)
+      //  +below(480px)
+      //    border-top: 1px solid rgba(255, 255, 255, 0.7)
+      //    height: (1/rfs)rem
+      //    left: 0
+      //    width: 100%
+
+      .title
+        define-font(museo, (20/rfs)rem , black, 1.3, bold)
+        +below(480px)
+          define-font(museo, (20/hrfs)rem , black, 1.3, bold)
+          padding-top: (20/rfs)rem
+
+      .numb-container
+        display: flex
+        align-items: center
+        flex-wrap: wrap;
+        +below(480px)
+          justify-content: center
+
+
+        .numb
+          define-font(museo, (94/rfs)rem , white, 1, normal, (7.1/rfs)rem )
+          position: relative
+          left: (-5/rfs)rem
+          top: (5/rfs)rem
+          +below(480px)
+            define-font(museo, (94/hrfs)rem , white, 1, normal, (7.1/hrfs)rem )
+            position: relative
+            left: (-5/hrfs)rem
+            top: (5/hrfs)rem
+
+        .text
+          define-font(museo, (36/rfs)rem , white, 1.4, bold, (1.7/rfs)rem)
+          +below(480px)
+            define-font(museo, (36/hrfs)rem , white, 1.4, bold, (1.7/hrfs)rem)
+
+      .desc
+        define-font(museo, (15/rfs)rem , white, 1.47, normal)
+        overflow: hidden;
+        word-wrap: break-word;
+        +below(480px)
+          define-font(museo, (15/hrfs)rem , white, 1.47, normal)
+
+  .news-wrapper
+    .news-container
+      overflow: hidden
+      define-container((1280/rfs)rem)
+      margin-top: (106/rfs)rem
+
+      .news-container-inner
+        position: relative
+        display: inline-block
+        width: (1210/rfs)rem
+        padding-top: (126/rfs)rem
+        padding-bottom: (46/rfs)rem
+        margin-left: (72/rfs)rem
+        vertical-align: top
+        clearfix()
+
+        .news-container-inner-title
+          define-font(museo, (34/rfs)rem,#090909, 0.94, 700)
+
+        .news-card-container
+          margin-top: (39/rfs)rem
+          margin-right: (74/rfs)rem
+          clearfix()

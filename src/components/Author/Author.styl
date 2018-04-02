@@ -1,0 +1,108 @@
+.c-author
+  define-container()
+  max-width: (950/rfs)rem
+
+  +below(825px)
+    padding: 0 (32/rfs)rem
+
+  margin-top (30/rfs)rem
+  .about-head-two-wrapper
+    width (754/rfs)rem
+    display: flex
+    justify-content: space-between;
+    +below(825px)
+      width: auto
+
+    +below(480px)
+      flex-direction: column
+
+    .about-author-container
+      display: flex
+      flex-direction: row
+      align-items: center
+      margin-right: (20/rfs)rem
+
+      +below(480px)
+        margin-bottom: (30/rfs)rem
+
+      .about-author-avatar
+        width (80/rfs)rem
+        min-width (80/rfs)rem
+        height (80/rfs)rem
+        position relative
+        overflow hidden
+        border-radius (40/rfs)rem
+        margin auto 0px
+        margin-right: (17/rfs)rem
+        img
+          width: 100%
+          min-width (80/rfs)rem
+          height: 100%
+          object-fit cover
+
+      .info-author-block
+        max-width: (260/rfs)rem
+        min-width: (100/rfs)rem
+        +below(480px)
+          margin auto 0px
+        .author-title
+          define-font(museo, (11/rfs)rem, black, 1.6, normal, 0.3px)
+          opacity 0.5
+          text-transform uppercase
+          display block
+
+        .author-name
+          define-font(museo, (15/rfs)rem, black, 1.6, bold, 1px)
+          text-transform uppercase
+          display: block
+
+        .author-position
+          define-font(museo, (12/rfs)rem, black, 1.5, normal)
+
+    .about-info-author
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto
+      +below(825px)
+        width: auto
+      +below(480px)
+        margin 0px
+      .about-social
+        margin: auto 0px
+        //padding-right (97/rfs)rem
+        padding-right (0/rfs)rem
+        width (176/rfs)rem
+        +below(825px)
+          padding-right: (0/rfs)rem
+
+        +below(480px)
+          align-items: center
+        .link
+          define-font(museo, (15/rfs)rem, #1e9df2, normal, normal)
+          text-decoration none
+          display block
+          margin-bottom (20/rfs)rem
+
+        .social-block
+          width 100%
+          display: flex;
+          justify-content: flex-start;
+
+          a
+            text-decoration none
+            margin-right: (37/rfs)rem
+            display: flex
+            align-items: flex-end
+
+            +below(480px)
+              text-align: center
+
+            img
+              height: 22px
+              width: auto
+
+          .about-vk
+            img
+              height: 17px
+              position: relative
+              bottom: 2px

@@ -1,0 +1,126 @@
+.popup-registration-root
+  background white
+  width 100%
+  height 100%
+  position fixed
+  z-index 101
+  top 0
+  left 0
+  overflow auto
+  box-sizing: border-box
+  background-image: url(../../images/investor-registration-background.svg)
+  background-repeat: no-repeat
+  background-position: 100% 100%;
+
+  +below(826px)
+    padding: 0 (16/rfs)rem
+
+  .registration-close
+    width 33px
+    height: 20px;
+    padding-top: 11px
+    position fixed
+    top (32.8/rfs)rem
+    right (44.7/rfs)rem
+    cursor pointer
+    transition 0.3s
+    z-index 8
+
+    .line
+      background: #1e9df2
+      width: (33/rfs)rem
+      height (2/rfs)rem
+      margin-bottom (2/rfs)rem
+
+    .line:first-child
+      transform: translate3d(0px,(2/rfs)rem,0px) rotate(45deg)
+      -webkit-transform: translate3d(0px,(2/rfs)rem,0px) rotate(45deg)
+
+    .line:last-child
+      transform: translate3d(0px,(-2/rfs)rem,0px) rotate(-45deg);
+      -webkit-transform: translate3d(0px,(-2/rfs)rem,0px) rotate(-45deg);
+
+  .registration-wrapper
+    define-container()
+    text-align left
+    position: relative
+    z-index: 5
+
+    .logo
+      width (49.5/rfs)rem
+      margin-top (113/rfs)rem
+
+    .registration-title
+      define-font(museo, (50/rfs)rem, black, 1.12, bold, 1.8px)
+      display block
+      margin (29.3/rfs)rem 0px (13/rfs)rem
+      width (740/rfs)rem
+
+      +below(826px)
+        width: auto
+
+      +below(555px)
+        font-size: (40/rfs)rem
+
+      +below(444px)
+        font-size: (30/rfs)rem
+
+      +below(350px)
+        font-size: (18/rfs)rem
+
+    .attachments
+      define-font(museo, (22/rfs)rem, black, normal, bold, 0.3px)
+      display block
+      margin-bottom (17/rfs)rem
+
+    .registration-text
+      define-font(museo, (15/rfs)rem, black, 1.6, normal, 0.2px)
+      opacity 0.8
+      display block
+      width (657/rfs)rem
+      margin-bottom (43/rfs)rem
+
+      +below(826px)
+        width: auto
+
+    .registration-input
+      width (288/rfs)rem
+      margin-right (96/rfs)rem
+      position relative
+      z-index 2
+
+    .inputs-wrapper
+      display: flex
+
+    .registration-button
+      display block
+      width (230/rfs)rem
+      text-align center
+      background #7ed321
+      border-radius (6/rfs)rem
+      box-shadow: 0 2px 4px 0 rgba(4, 49, 71, 0.5);
+      border 0px
+      text-transform uppercase
+      padding (17/rfs)rem 0px (12/rfs)rem
+      margin-top (20/rfs)rem
+      cursor pointer
+      transition 0.3s
+      position relative
+      z-index 2
+
+      span
+        define-font(museo, (15/rfs)rem, white, normal, normal, 1px)
+        transition 0.3s
+        opacity 0.5
+
+    .registration-button:hover span
+      opacity 1
+
+    .registration-button:focus
+      outline none
+
+  .registration-bg
+    width 100%
+    position absolute
+    bottom 0px
+    right 0px

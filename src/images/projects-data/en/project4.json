@@ -1,0 +1,188 @@
+[
+  {
+    "is-article-content": false,
+    "type": "about-card",
+    "time": "26",
+    "investments": 670000,
+    "targetMin": 5000000,
+    "target": 5000000,
+    "isStartup": true,
+    "rating": "$",
+    "currency": "$",
+    "percent": "up to 65",
+    "city": "San Francisco, California, USA",
+    "min_sum": "5 000 000",
+    "investors": "52"
+  },
+  {
+    "is-article-content": false,
+    "type": "head",
+    "projectType": "Startup",
+    "projectTypeId": 1,
+    "title": "Project for purchasing shares / share of Chinese company Xiaomi",
+    "rating": "BBB",
+    "ratingText": "(Перевода нет) Средние: на текущий момент адекватно защищены, но может нехватать некоторых защитных элементов или они недостаточно надежны в долгосрочной перспективе.",
+    "authorUrl": "/images/logo-padding.svg",
+    "authorName": "OnPlace Inc. analytical division",
+    "authorPosition": "The owner of this block of shares",
+    "websiteLink": "www.uber.com",
+    "background": "/images/data/xiaomi.png"
+  },
+  {
+    "type": "title",
+    "text": "Company Xiaomi Inc."
+  },
+  {
+    "type": "text",
+    "text": "Xiaomi Inc. - a Chinese company founded by Lei Jun in 2010."
+  },
+  {
+    "type": "text",
+    "text": "'Saami' was founded by eight partners on 6 April 2010. August 16, 2010, Xiaomi officially launched the MIUI firmware based on Android."
+  },
+  {
+    "type": "text",
+    "text": "The first smartphone, the Mi1 was announced in August 2011. It comes with a built-in firmware MIUI, based on Android, combining the signature styles of Samsung TouchWiz and Apple iOS. In August 2012 Xiaomi announced the Mi2 smartphone. There was a Qualcomm Snapdragon S4 Pro APQ8064, 1.5 GHz Quad-core Krait chip with 2 GB of RAM and a graphics processor Adreno 320. 24 September 2013 the company announced the sale of over 10 million Mi2 devices over the 11 months. Some devices Xiaomi are produced in factories Foxconn, which produces Apple's iPhone and iPad."
+  },
+  {
+    "type": "text",
+    "text": "In September 2013, 'Saami' announced the smartphone Mi3 on Snapdragon 800 (MSM8974AB) and the version on the chipset NVIDIA Tegra 4. 25 Sep 2013 'Saami' has announced plans to open its first flagship store in Beijing. In October 2013, Xiaomi has become the fifth mobile brand in China."
+  },
+  {
+    "type": "table",
+    "headers": ["Company name", "Xiaomi Inc."],
+    "data": [
+      ["Business type", "Private company"],
+      ["Year of establishment", "2010"],
+      ["Headquarter location", "Beijing China"],
+      ["Business sector", "consumer electronics / manufacturer"],
+      ["Number of employee", "Up to 8000 people"],
+      ["Main products and service", "The ecosystem is composed of MIUI, Smartphones, Bicycles, WiFi routers, Fitness tracker. Portable Battery, Action camera, Headphones, Accessories, bathroom scales, loudspeaker system, water Filter, rice Cooker"],
+      ["Business capitalization (according to the latest data from open sources)", "$45 billion"]
+    ]
+  },
+  {
+    "type": "text",
+    "text": "The company's activity began with the development of Android-firmware MIUI. In 2011 was released its own phone — the first device with MIUI pre-installed initially, competitive specifications and a low price."
+  },
+  {
+    "type": "text",
+    "text": "In 2012 was released the second smartphone with higher specifications, but also released an improved version of the Mi1 Plus. Xiaomi Mi3 was presented in September 2013. Also was presented the first TV of the company - Xiaomi MiTV. The results of the first quarter of 2014, the company took the 3rd place in terms of sales of smartphones in China market (11 %), ahead of Apple (10 %). In the world the company ranks no 6 (3.8 %) and shows a steady growth."
+  },
+  {
+    "type": "text",
+    "text": "In may 2014, the company introduced two products: the long-awaited MiPad tablet and 4K is a continuation of the TV MiTV 2. In July 2014, during the annual conference, the company announced the next-generation smartphone called the Xiaomi Mi4, and also announced the release of the sixth version of the firmware based on the Android OS — MIUI. On the conference was presented the first 'smart wristband' by company MiBand."
+  },
+  {
+    "type": "text",
+    "text": "In the third quarter of 2014, Xiaomi for the first time in its history, came in third place in the world in sales of smartphones. In 2015, Xiaomi has released the first action camera Yi, which is declared to be a competitor to the GoPro. Also in 2015 was presented smartphone Xiaomi Redmi Note, Mi Note, Mi Note Pro, Redmi Note 2, Redmi Note 3, Redmi 2 and Mi4C. From accessories was provided a water tester and a small Bluetooth speaker box Xiaomi MiFa."
+  },
+  {
+    "type": "text",
+    "text": "In February 2016, was presented the flagship smartphone Xiaomi Mi5. The device is equipped with a 5.15-inch Full HD display, Snapdragon 820 chipset, battery capacity of 3000 mAh and built-in button 'Home' fingerprint scanner. The largest amount of RAM and ROM is 4 GB and 128 GB."
+  },
+  {
+    "type": "text",
+    "text": "In March 2016, was presented the first 'smart' Bicycle company: Xiaomi QiCycle R1. It is equipped with a frame Mitsubishi T800 carbon fiber and high-tech electronic transmission that provides ultra-smooth shifting and capable of working up to 40 hours from internal battery."
+  },
+  {
+    "type": "text",
+    "text": "At the official presentation of 27 July 2016, the Chinese company introduced the first laptop under its own brand — Xiaomi Mi Notebook Air."
+  },
+  {
+    "type": "text",
+    "text": "Xiaomi said that the goal of the company for 2017, among which is fourfold of increase the number of physical stores, up to 200 retail outlets, increasing presence of Xiaomi in the world, deepening of research in the field of artificial intelligence, and online financial services."
+  },
+  {
+    "type": "big-quote-left-side",
+    "title": "4-year yield is",
+    "bigLetter": "250%",
+    "smallLetter": ""
+  },
+  {
+    "type": "title",
+    "text": "Financial key indicators"
+  },
+  {
+    "type": "text",
+    "text": "The net income of the company Xiaomi is growing rapidly: sales of smartphones and net sales for the first 4 years since its establishment showed the following trend: 2013/ 2012 +95%; 2014/2013 years +180%; 2015/2014 years +66,7%; for 2016, growth is projected at a more moderate +12,5%."
+  },
+  {
+    "type": "text",
+    "text": "During 2011-2014, Xoaomi growth rate of devices sales consistently exceeded by 100% figure (grew by more than 2-fold over the period)."
+  },
+  {
+    "type": "text",
+    "text": "At the end of 2015 was noted some lower growth, and the company lost the leading position in the Chinese gadget market."
+  },
+  {
+    "type": "text",
+    "text": "Analysis of production line development, and support of pay services for a given period allows to expect to restore high rates of a sale growth, and return of revenue volume for Xiaomi in the near future."
+  },
+  {
+    "type": "text",
+    "text": "Even though operations of the company is profitable, however, to conduct a full analysis of profitability indicators is not possible because of the confidential nature of information. Future IPO of the company is possible, this is typical for Chinese companies to publicly offerings of leading it will enable it to raise funds to strategic investments level and to adhere the goals of improving the profitability of the operating business, and to further increase in capitalization."
+  },
+  {
+    "type": "image",
+    "src": "/images/content/xiaomi-graph-1.png",
+    "author": "Source: Onplace estimates and forecasts is based on data from open sources.",
+    "alt": ""
+  },
+  {
+    "type": "title",
+    "text": "Xiaomi main investors"
+  },
+  {
+    "type": "text",
+    "text": "Xiaomi has raised approximately $1.5 billion in 6 rounds from venture capital, and private investors ."
+  },
+  {
+    "type": "text",
+    "text": "The largest investors of the company are TATA Group (the founder and Director of the RATAN Tata), Qiming Venture Partners, Morningside Group, Qualcomm Ventures, DST Global, IDG Capital Partners."
+  },
+  {
+    "type": "text",
+    "text": "The minimum entry threshold for investors is not disclosed. Valuation at the moment is ranges from $5 000 000."
+  },
+  {
+    "type": "title",
+    "text": "Current and expected capitalization Xiaomi"
+  },
+  {
+    "type": "text",
+    "text": "If assuming as pessimistic case scenario assessment of income growth rates for the previous period of (+15 %) , than we can expect an increase in net income of Xiaomi in 2017 up to $25 billion."
+  },
+  {
+    "type": "text",
+    "text": "The market multiplier value revenue/capitalization for demonstrating high growth profitable companies in the sector (e.g. Apple Inc.) is estimated at the level of 3.0."
+  },
+  {
+    "type": "text",
+    "text": "Basically estimate the income of Xiaomi in $25 billion, and the value of the multiplier for vendors companies expected capitalization of the business is estimated at $75 billion, and have the potential of growth from current level up to +65%."
+  },
+  {
+    "type": "image",
+    "src": "/images/content/xiaomi-graph-2.png",
+    "author": "Source : https://www.crunchbase.com/organization/xiaomi#/entity",
+    "alt": ""
+  },
+  {
+    "type": "title",
+    "text": "Total indicators of investment effectiveness in Xiaomi Inc."
+  },
+  {
+    "type": "table",
+    "headers": ["Company name", "Xiaomi Inc."],
+    "data": [
+      ["Business type", "Private company"],
+      ["Headquarter location", "Beijing China"],
+      ["Minimum investment threshold", "$5 000 000"],
+      ["Current capitalization", "$45 billion"],
+      ["Expected net of clean profit in 2017", "$25 billion"],
+      ["Market value multiplier revenue / value of the business at the beginning of 2017", "1,0-3,0"],
+      ["Expected capitalization growth in case of IPO", "$75 billion"],
+      ["The profitability of investment in Xiaomi Inc.", "Up to 65% per yer"]
+    ]
+  }
+]

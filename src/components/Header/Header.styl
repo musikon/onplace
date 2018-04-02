@@ -1,0 +1,129 @@
+.c-header-root
+  padding-top: (9/rfs)rem
+  transition: box-shadow 0.8s
+  position relative
+
+  &.with-shadow
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.08), 0 4px 4px 0 rgba(0,0,0,0.16);
+
+  +below(826px)
+    padding: 0 (16/rfs)rem
+
+  &.is-plug
+    opacity: 1
+
+  .header-inner
+    display: flex;
+    justify-content: space-between
+    define-container()
+    .header-left-column
+      padding-bottom: (5/rfs)rem;
+
+  .header-logo
+    width: (51/rfs)rem
+
+  .header-navigation
+    display: flex
+    padding-top: (22/rfs)rem
+    justify-content: flex-end
+
+    +below(826px)
+      overflow-x: scroll
+      overflow-y: hidden;
+      display: block;
+      white-space: nowrap;
+
+    .header-navigation-item
+      define-font(museo, (12/rfs)rem, gray, 1, bold, 1.1px)
+      text-transform: uppercase
+      padding: 0 (13/rfs)rem
+      padding-bottom: (26/rfs)rem
+      margin-right: (4/rfs)em
+      border-bottom: 3px solid transparent
+
+      +below(826px)
+        display: inline-block
+        vertical-align: top
+
+      &_white
+        color: white
+        opacity: 0.5
+
+      &.active
+        color: black
+        border-bottom: 3px solid blue
+
+    .header-navigation-item-text
+      white-space: nowrap
+      cursor: pointer
+      user-select: none
+
+      &:hover
+        color: black
+
+  .header-center-column
+    width: 100%
+    padding-left: (68/rfs)rem
+
+    +below(826px)
+      overflow-x: hidden
+      padding-left: (16/rfs)rem
+      padding-right: (16/rfs)rem
+
+  .header-right-column
+    display: flex
+    padding-top: (16/rfs)rem
+
+  .header-site-lang-icon
+    width: (24/rfs)rem
+    height: (24/rfs)rem
+    border-radius: 50%
+    cursor: pointer
+    overflow: hidden
+    margin-left: (9/rfs)rem
+    opacity: 0.6
+    &.active
+      opacity: 1
+
+    img
+      width: (21/rfs)rem
+
+  &.header_white_theme
+    .header-navigation
+      display: flex
+      padding-top: (22/rfs)rem
+
+      +below(826px)
+        overflow-x: scroll
+        overflow-y: hidden;
+        display: block;
+        white-space: nowrap;
+
+      .header-navigation-item
+        define-font(museo, (12/rfs)rem, white, 1, bold, 1.1px)
+        text-transform: uppercase
+        padding: 0 (13/rfs)rem
+        padding-bottom: (26/rfs)rem
+        margin-right: (4/rfs)em
+
+        +below(826px)
+          display: inline-block
+          vertical-align: top
+
+        &.active
+          color: white
+          opacity: 0.5
+          border-bottom: 3px solid blue
+
+      .header-navigation-item-text
+        white-space: nowrap
+        cursor: pointer
+        user-select: none
+        opacity: 0.5
+
+        &:hover
+          color: white
+          opacity: 1
+
+    .header-logo
+      width: (51/rfs)rem

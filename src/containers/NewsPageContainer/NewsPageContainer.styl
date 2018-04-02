@@ -1,0 +1,56 @@
+.c-article-page-root
+
+  .simple-title-wrapper
+    background-color: middleGray
+    padding:  (50/rfs)rem 0 (70/rfs)rem 0
+    background: gray_bg
+    position: relative
+    padding-top: (137/rfs)rem
+
+  .article-page-content-container
+    //not 72(like on main page) cause not active now
+    margin-top: (95/rfs)rem
+
+  .news-wrapper
+    background-color: aqua;
+    .news-container
+      overflow: hidden
+      define-container((1280/rfs)rem)
+      //margin-top: (106/rfs)rem
+      margin-top: (15/rfs)rem
+
+      .news-container-inner
+        clearfix()
+        position: relative
+        display: inline-block
+        width: (1210/rfs)rem
+        padding-top: (90/rfs)rem
+        padding-bottom: (46/rfs)rem
+        margin-left: (72/rfs)rem
+        vertical-align: top
+        box-sizing: border-box;
+
+        .news-container-inner-title
+          define-font(museo, (34/rfs)rem,#090909, 0.94, 700)
+
+        .news-card-container
+          margin-top: (39/rfs)rem
+          margin-right: (74/rfs)rem
+          clearfix()
+
+      +below(826px)
+        .news-container-inner
+          width: 100%
+          margin: 0
+          padding: (32/rfs)rem
+          padding-bottom: (50/rfs)rem
+
+          .news-card-container
+            width: 100%
+
+          .c-news-card-root
+            column(1/1)
+            display: none
+
+            &:nth-child(1)
+              display: block

@@ -1,0 +1,77 @@
+.c-news-page-root
+  padding: 0
+
+  .news-title-wrapper
+    background-color: middleGray
+    padding:  (60/rfs)rem 0 (165/rfs)rem 0
+    background: gray_bg
+    position: relative
+    z-index: 0
+
+  .news-containers
+    overflow: hidden
+    define-container((1280/rfs)rem)
+    margin-top: (-220/rfs)rem
+    z-index: 2
+
+
+    .news-containers-inner
+      position: relative
+      display: inline-block
+      width: (1210/rfs)rem
+      padding-top: (126/rfs)rem
+      padding-bottom: (46/rfs)rem
+      margin-left: (72/rfs)rem
+      vertical-align: top
+      clearfix()
+
+    // vertical news align
+    +below(826px)
+      padding: (32/rfs)rem
+
+      .news-containers-inner
+        margin: 0
+        +below(826px)
+          width: 100%
+
+          // container component
+          .c-news-container
+            width: 100%
+            padding: 0
+            .news-container__item-container
+
+              //news component
+              .c-news-card-root
+                column(1/1)
+                .news-item, .news-item.vertical
+                  height: auto;
+                  display: flex
+                  flex-direction: column
+                  height: auto
+                  width: 100%
+                  .news-item-image-container
+                    display: none
+                    height: 0
+                  .news-item-container
+                    width: auto
+                    height: auto
+                    padding: (30/rfs)rem (34/rfs)rem
+                    padding-bottom: (64/rfs)rem
+
+.news-containers-inner-title
+        define-font(museo, (34/rfs)rem,#090909, 0.94, 700)
+
+      .news-card-container
+        margin-top: (39/rfs)rem
+        margin-right: (74/rfs)rem
+        clearfix()
+
+  &.hide-news
+    .news-container
+      display: none
+
+    .add-news-button-container
+      display: none
+
+
+

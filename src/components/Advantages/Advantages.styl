@@ -1,0 +1,107 @@
+.c-advantages-root
+  define-container()
+
+  +below(826px)
+    padding: 0 (16/rfs)rem
+
+  .advantages-list
+    margin-top: (48/rfs)rem
+    clearfix()
+
+    .advantage
+      column(4/12, $gutter: gutter, $cycle: 3)
+      min-height: (227/rfs)rem
+      text-align: center
+      padding-top: (48/rfs)rem
+      padding-bottom: (31/rfs)rem
+      margin-bottom: (24/rfs)rem
+      box-sizing border-box
+      position relative
+
+      +below(826px)
+        column(1/1)
+        text-align: center
+
+      .title
+        define-font(mono, (15/rfs)rem, black, 1.6, bold)
+        margin-top: (18/rfs)rem
+
+      .description
+        define-font(mono, (15/rfs)rem, black, 1.6)
+        width: 87%
+        margin: 0 auto
+
+      .icon-container
+        display: flex
+        justify-content: center
+        margin: 0 auto
+        border-radius: 50%
+        background-color: haze
+        width: (112/rfs)rem
+        height: (112/rfs)rem
+
+      &:nth-child(2n - 1)
+        .icon-container
+          background-color: blue
+          box-shadow:  0 (25/rfs)rem (38/rfs)rem 0 rgba(105, 150, 172, 0.5)
+
+      &:nth-child(1)::before
+      &:nth-child(2)::before
+        content ''
+        height (467/rfs)rem
+        width (1/rfs)rem
+        background #000
+        position absolute
+        right 0px
+        top (60/rfs)rem
+        opacity 0.1
+
+      &:nth-child(1)::after
+        content ''
+        height (1/rfs)rem
+        width (1136/rfs)rem
+        background #000
+        position absolute
+        left 0px
+        bottom (-24/rfs)rem
+        opacity 0.1
+
+      .icon
+        position: relative
+
+        &.bank
+          width: (63/rfs)rem
+          height: (63/rfs)rem
+          height: auto
+          left: (0/rfs)rem
+          top: (2/rfs)rem
+          position: relative;
+
+        &.low
+          width: (105/rfs)rem
+          height: auto
+          left: 18px;
+          top: 8px;
+
+        &.numbers
+          width: (57/rfs)rem
+          height: (58/rfs)rem
+          height: auto
+          margin-left: 0
+
+        &.rating
+          width: (108/rfs)rem
+          left: (17/rfs)rem;
+          top: (14/rfs)rem;
+
+        &.libra
+          width: (85/rfs)rem
+          height: (110/rfs)rem
+
+        &.flags
+          width: (75/rfs)rem
+          height: (77/rfs)rem
+          height: auto
+          left: 0
+          top: 0
+          transform: rotate(45deg)

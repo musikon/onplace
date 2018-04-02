@@ -1,0 +1,154 @@
+.c-investments-model-root
+  define-container()
+  margin-top: (37/rfs)rem
+
+  +below(826px)
+    padding: 0 (16/rfs)rem
+
+  .title
+    define-font(museo, (20/rfs)rem, black, 1.6, bold)
+    font-size: 20px
+    +between(mobile_min, mobile_max)
+      font-size: 18px;
+
+    +below(826px)
+      margin-left: 0
+
+  .description
+    define-font(mono, (15/rfs)rem, black, 1.6)
+    font-size: 15px
+    opacity: 0.8
+    margin-top: (5/rfs)rem
+    width: 44%
+    +between(mobile_min, mobile_max)
+      font-size: 15px
+
+    +below(826px)
+      margin-left: 0
+      width: 100%
+
+  .models-list
+    clearfix()
+    margin-top: (58/rfs)rem
+    text-align: center
+    display: flex
+    justify-content: space-between
+    width: 100%
+
+    +below(826px)
+      width: 100%
+      display: block
+    +between(tablet_min, tablet_max)
+      padding: 0
+
+    .scheme-container
+      width: 99%
+      position: relative
+      +between(mobile_min, mobile_max)
+        box-sizing: border-box
+        padding-right: 150px
+      .business
+        position: absolute
+        cursor: help
+        top: 0
+        bottom: 0
+        left: 0
+        width: 55%
+        //background: rgba(100%, 0%, 0%, 0.5);
+        +between(tablet_min, tablet_max)
+          left: 0
+          right: 0
+          top: 0
+          bottom: initial
+          width: 100%
+          height: 50%
+        +between(mobile_min, mobile_max)
+          top: 0
+          left: 0
+          right: 0
+          bottom: initial
+          height: 60%
+          width: 100%
+      .startups
+        position: absolute
+        cursor: help
+        top: 0
+        bottom: 0
+        right: 0
+        width: 45%
+        //background: rgba(0%, 100%, 0%, 0.5);
+        +between(tablet_min, tablet_max)
+          bottom: 0
+          left: 0
+          right: 0
+          top: initial
+          width: 100%
+          height: 50%
+        +between(mobile_min, mobile_max)
+          bottom: 0
+          left: 0
+          right: 0
+          top: initial
+          width: 100%
+          height: 40%
+      .startups-bg
+        display: none
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        height: 50%
+        z-index: -1
+        background: lessBlueLight
+        +between(mobile_min, mobile_max)
+          height: 40%
+
+      &:first-child
+        margin-right: (10/rfs)rem
+
+      +below(826px)
+        width: 100%
+
+    .scheme-image
+      width: 100%
+
+    .model
+      column(3/12, $gutter: gutter)
+      display: flex
+
+      +below(826px)
+        column(1/1)
+
+      .number-sign
+        define-font(museo, (36/rfs)rem, alto, 1, normal, 1.7px)
+        margin-top: (97/rfs)rem
+
+      .number
+        define-font(museo, (154/rfs)rem, black, 1, normal, 7.1px)
+        margin-left: (-4/rfs)rem
+
+      .model-description
+        define-font(museo, (14/rfs)rem, black, 1.36, normal, 0.3px)
+        margin-left: (-12/rfs)rem
+        display: flex
+        align-items: center
+        margin-top: (-8/rfs)rem
+
+      &:nth-child(1)
+        .model-description
+          width: 49%
+
+      &:nth-child(2)
+        .model-description
+          width: 54%
+
+      &:nth-child(3)
+        position: static
+
+      &:nth-child(4)
+        .number
+          margin-left: (-12/rfs)rem
+
+        .model-description
+          width: 100%
+          margin-left: (-5/rfs)rem

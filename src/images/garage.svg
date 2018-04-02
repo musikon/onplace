@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="86px" viewBox="0 0 100 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>garage</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6 8 95 8 95 86 6 86"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="89" height="78" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="100" height="9"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="9" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="14" y="23" width="73" height="63"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="73" height="63" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="11" y="17" width="79" height="7"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="79" height="7" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="24" y="61" width="54" height="5"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="54" height="5" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <polygon id="path-11" points="29 65 34 65 32 86 31 86"></polygon>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="21" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <polygon id="path-13" points="65 65 70 65 68 86 67 86"></polygon>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="21" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="52" y="41" width="24" height="15"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="15" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <polygon id="path-17" points="62.1666667 55 66.8333333 55 68 62 61 62"></polygon>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="7" height="7" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="27" y="58" width="11" height="4"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="11" height="4" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <path d="M36.2222222,44.5555556 L36.2222222,49 L31.7777778,49 L31.7777778,44.5555556 L30,39 L38,39 L36.2222222,44.5555556 Z" id="path-21"></path>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8" height="10" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Команда+типы-проектов" transform="translate(-877.000000, -380.000000)" stroke="#F64300">
+            <g id="Типы-проектов">
+                <g id="типы-проектов-copy" transform="translate(72.000000, 89.000000)">
+                    <g id="Group-13" transform="translate(0.000000, 287.000000)">
+                        <g id="Group-41" transform="translate(805.000000, 4.000000)">
+                            <g id="garage">
+                                <use id="Rectangle-52" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                                <use id="Rectangle-52-Copy-2" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                                <use id="Rectangle-52" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                                <use id="Rectangle-52-Copy" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                                <path d="M14,30 L87,30" id="Path-5"></path>
+                                <path d="M14,36 L87,36" id="Path-5"></path>
+                                <use id="Rectangle-53" mask="url(#mask-10)" stroke-width="2.36151603" xlink:href="#path-9"></use>
+                                <use id="Rectangle-54" mask="url(#mask-12)" stroke-width="2.36151603" xlink:href="#path-11"></use>
+                                <use id="Rectangle-54-Copy" mask="url(#mask-14)" stroke-width="2.36151603" xlink:href="#path-13"></use>
+                                <use id="Rectangle-55" mask="url(#mask-16)" stroke-width="2.36151603" xlink:href="#path-15"></use>
+                                <polyline id="Path-6" stroke-width="1.10204082" points="32 59 28 51.4615385 32 45"></polyline>
+                                <use id="Rectangle-55-Copy" mask="url(#mask-18)" stroke-width="2.36151603" xlink:href="#path-17"></use>
+                                <use id="Rectangle-56" mask="url(#mask-20)" stroke-width="2.20408163" fill="#FFFFFF" xlink:href="#path-19"></use>
+                                <use id="Combined-Shape" mask="url(#mask-22)" stroke-width="2.20408163" transform="translate(34.000000, 44.000000) rotate(-230.000000) translate(-34.000000, -44.000000) " xlink:href="#path-21"></use>
+                                <polyline id="Path-7" points="56 52 61 48 65 52 73 44"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

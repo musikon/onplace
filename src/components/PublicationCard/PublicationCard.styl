@@ -1,0 +1,53 @@
+.c-publication-card-root
+  white-space: normal
+
+  .publication-item
+    display: flex
+    height: 100%
+    cursor: pointer
+    text-decoration: none
+    define-hover-shadow(0 (20/rfs)rem (30/rfs)rem 0 rgba(4, 49, 71, 0.5))
+
+    .publication-item-image-container,
+    .publication-item-container
+      span(1/2)
+
+    .publication-item-image-container
+      display: flex
+      justify-content: center
+      align-items: center
+
+    .publication-item-container
+      background-color: white
+      position: relative
+      box-sizing: border-box
+      padding: (38/rfs)rem (49/rfs)rem
+
+    .image-container
+      background-color: white
+      width: (112/rfs)rem
+      height: (112/rfs)rem
+      display: flex
+      justify-content: center
+      align-items: center
+      padding: (18/rfs)rem
+      box-sizing: border-box
+
+      .publication-item-image
+        width: 100%
+
+    .publication-title
+      define-font(museo, (22/rfs)rem, black, 1.27, bold)
+
+    .publication-description
+      margin-top: (17/rfs)rem
+      define-font(museo, (15/rfs)rem, black, 1.6)
+
+    .publication-read-more
+      position: absolute
+      left: (46/rfs)rem
+      bottom: (28/rfs)rem
+
+      img
+        width: (33/rfs)rem
+        height: (33/rfs)rem

@@ -1,0 +1,47 @@
+.c-footer-navigation-root
+  .footer-navigation-inner
+    border-top: 1px solid iron
+    border-bottom: 1px solid iron
+    height: (114/rfs)rem
+
+  .footer-navigation-items-container
+    define-container((1152/rfs)rem)
+
+  .footer-navigation-item-wrapper
+    span(4/12)
+    margin-top: (34/rfs)rem
+    position: relative
+
+    &:before
+      content: ''
+      position: absolute
+      left: 0
+      display: inline-block
+      width: 1px
+      height: (50/rfs)rem
+      background-color: iron
+
+    &:first-child
+      &:before
+        display: none
+
+    &:hover
+      .text
+        color: blue
+  .footer-navigation-item
+    text-align: center
+    text-decoration: none
+
+    .icon-container
+      width: 100%
+      font-size: 0
+      height: (22/rfs)rem
+
+    .text
+      text-transform: uppercase
+      define-font(museo, (14/rfs)rem, black, 1.4)
+      margin-top: (15/rfs)rem
+      transition: all .25s ease
+      +below(416px)
+        font-size: (11/rfs)rem
+        padding: 0 (5/rfs)rem

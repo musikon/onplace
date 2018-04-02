@@ -1,0 +1,254 @@
+.registration-company-root
+  position fixed
+  overflow auto
+  width 100vw
+  height 100vh
+  background white
+  z-index 6
+  top 0px
+  left 0px
+
+  .registration-close
+    width 33px
+    height: 20px;
+    padding-top: 11px
+    position absolute
+    top (32.8/rfs)rem
+    right (44.7/rfs)rem
+    cursor pointer
+    transition 0.3s
+    z-index 8
+
+    .line
+      background: white
+      width: (33/rfs)rem
+      height (2/rfs)rem
+      margin-bottom (2/rfs)rem
+
+    .line:first-child
+      transform: translate3d(0px,(2/rfs)rem,0px) rotate(45deg)
+      -webkit-transform: translate3d(0px,(2/rfs)rem,0px) rotate(45deg)
+
+    .line:last-child
+      transform: translate3d(0px,(-2/rfs)rem,0px) rotate(-45deg);
+      -webkit-transform: translate3d(0px,(-2/rfs)rem,0px) rotate(-45deg);
+
+  .registration-top
+    background blue
+    margin-bottom (72/rfs)rem
+    .logo
+      width (48.5/rfs)rem
+      margin (93/rfs)rem 0px (33.5/rfs)rem
+
+    .registration-title
+      define-font(museo, (50/rfs)rem, white, 1.12, bold, 1.8px)
+      display block
+      width (740/rfs)rem
+      padding-bottom (76/rfs)rem
+
+      +below(826px)
+        width: auto
+
+  .registration-send
+    display block
+    border 0px
+    width: (230/rfs)rem;
+    border-radius: 6px;
+    background-color: #19395f;
+    box-shadow: 0 2px 4px 0 rgba(4, 49, 71, 0.5);
+    cursor pointer
+    padding (18/rfs)rem 0px (13/rfs)rem
+    margin-top (32/rfs)rem
+    margin-bottom  (102/rfs)rem
+
+    &.inactive
+      cursor: default
+      opacity: 0.6
+
+    span
+      define-font(museo, (15/rfs)rem, white, normal, bold, 1px)
+      opacity 0.5
+      text-transform uppercase
+      transition 0.3s
+
+  .registration-send:hover span
+    opacity 1
+  .registration-send:focus
+    outline none
+
+  .left-side
+    column(7/12, $gutter: gutter)
+
+    +below(680px)
+      width: 100%
+
+      .registration-send
+        display: none
+
+    .registration-title
+      define-font(museo, (22/rfs)rem, black, normal, bold, 0.3px)
+      display block
+      margin-bottom (17/rfs)rem
+
+    .registration-text
+      define-font(museo, (15/rfs)rem, black, 1.6, bold, 0.2px)
+      opacity 0.8
+
+    .registration-contact
+      display flex
+      justify-content: space-between;
+      flex-wrap wrap
+
+  .middle-side
+    column(1/12, $gutter: gutter)
+    text-align right
+
+    +below(680px)
+      display: none
+
+    .divider
+      display inline-block
+      width 1px
+      background #dde1e2
+      height (750/rfs)rem
+      margin-top (17/rfs)rem
+
+  .right-side
+    column(4/12, $gutter: gutter)
+
+    +above(680px)
+      .registration-send
+        display: none
+
+    +below(680px)
+      margin-top: (48/rfs)rem
+      width: 100%
+
+    .upload-container
+      +below(680px)
+        display: inline-block
+        vertical-align: top
+        margin-right: (16/rfs)rem
+
+        &.video
+          width: 100%
+
+    .media
+      clearfix()
+      margin-top: (16/rfs)rem
+
+      +below(680px)
+        display: flex
+
+      .media-block
+        font-size: 0
+        height (78/rfs)rem
+        background: rgba(30, 157, 232, 0.2)
+        margin-bottom (8/rfs)rem
+        margin-right (8/rfs)rem
+        position relative
+
+        +above(680px)
+          margin-right (8/rfs)rem
+          column(4/12, $gutter: 2.3, $cycle: 3)
+
+        +below(680px)
+          width: (80/rfs)rem
+          margin-top: (8/rfs)rem
+
+        img
+          max-height: 100%
+          max-width: 100%
+
+        .close-icon
+          cursor: pointer
+          position: absolute
+          right: (6/rfs)rem
+          top: (0/rfs)rem
+
+        .media-clear
+          width: 100%
+          display: flex
+          justify-content: center
+          align-items: center
+          height: 100%
+
+      .media-block:nth-child(3)
+        margin-right 0
+
+    .registration-download
+      display: block
+      margin (18/rfs)rem 0px (39/rfs)rem
+      text-decoration none
+      cursor: pointer
+
+      &:hover
+        .download-icon
+          top: 5px
+
+      .download-icon
+        display inline-block
+        vertical-align middle
+        position: relative
+        top: 0
+        transition: top 0.25s ease
+
+      .download-text
+        display inline-block
+        vertical-align middle
+        define-font(museo, (15/rfs)rem, blue, normal, normal, 0.2px)
+        text-transform uppercase
+        margin-left (17/rfs)rem
+
+    .upload-container-title
+      define-font(museo, (15/rfs)rem, black, normal, normal, 0.2px)
+      display block
+      opacity 0.5
+
+      &.registration-media
+        margin-bottom (21/rfs)rem
+
+      &.registration-documents
+        margin-bottom (25/rfs)rem
+
+      +below(826px)
+        margin-bottom: 0
+
+        &.registration-media
+          margin-bottom: 0
+
+        &.registration-documents
+          margin-bottom: (5/rfs)rem
+
+    .document
+      display block
+      margin-bottom: (8/rfs)rem
+      margin-top: (5/rfs)rem
+
+      .document-img
+        width (36/rfs)rem
+        height (36/rfs)rem
+        border-radius (18/rfs)rem
+        background blue
+        display inline-block
+        vertical-align middle
+        margin-right (14/rfs)rem
+
+        .image
+          margin (5/rfs)rem 0 0
+
+      .document-text
+        define-font(museo, (15/rfs)rem, black, normal, normal, 0.2px)
+
+      .document-clear
+        display inline-block
+        vertical-align middle
+        margin-left (15/rfs)rem
+        cursor pointer
+        transition 0.3s
+
+  .registration-wrapper
+    define-container()
+
+    +below(826px)
+      padding: 0 (16/rfs)rem

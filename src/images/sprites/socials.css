@@ -1,0 +1,26 @@
+.social-icons {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(../../images/sprites/socials.svg);
+}
+.social-facebook {
+  width: 9px;
+  height: 18px;
+  background-position: 0 0;
+}
+.social-facebook_white {
+  width: 9px;
+  height: 18px;
+  background-position: -23px 0;
+}
+.social-instagram_white {
+  width: 18px;
+  height: 18px;
+  background-position: -46px 0;
+}
+.social-instagram {
+  width: 18px;
+  height: 18px;
+  background-position: -69px 0;
+}
+

@@ -1,0 +1,122 @@
+[
+  {
+    "is-article-content": false,
+    "type": "about-card",
+    "time": "13",
+    "investments": 33333,
+    "target": 120000,
+    "rating": "$",
+    "percent": 25,
+    "currency": "$",
+    "city": "Krasnodar region",
+    "min_sum": "170",
+    "investors": "18"
+  },
+  {
+    "type": "head",
+    "authorName": "ARTEM SERGEEV",
+    "authorPosition": "The founder of the business, head of the construction company",
+    "authorUrl": "/images/author/home.png",
+    "background": "/images/data/project-about-background-1.jpg",
+    "projectType": "STANDARD PROJECT",
+    "projectTypeId": 2,
+    "rating": "BBB",
+    "social": true,
+    "socialVk": "https://vk.com/id32638689",
+    "title": "The construction of five individual houses economy class in Prikubansky district of Krasnodar"
+  },
+  {
+    "type": "title",
+    "text": "About"
+  }, {
+  "type": "text",
+  "text": "The construction of five single storey houses  with \"Finish\". The location of the construction site is one of the most rapidly developing areas in the Northern part (suburban town of the Vitaminkombinat district  , Veselay st.). In close proximity are all objects of the necessary infrastructure – supermarkets, kindergarten, schools, and large facilities – a sports complex \"Basket Hall\" and the shopping mall  \"Red Square\". More than 5 years builder have experience in housing construction , and over this period built 2 apartment complexes  with 150 apartments , and 10 other construction  objects."
+  },
+  {
+    "type": "video",
+    "src": "youtu.be/cibqzH5ED48"
+  },
+  {
+  "type": "title",
+  "text": "The purpose seeking of investments"
+  },
+  {
+    "type": "text",
+    "text": " Investment attracting to expand business , and to build five single storey houses in the format of Finishing Touch product \"Turnkey\" . On 200 sq. m. property is a  building with total residential area of 83 sq. m. It is unique with all utilities and economy level finishing."
+  },
+  {
+    "type": "big-quote-left-side",
+    "title": "The first month of interest payout",
+    "bigLetter": "2017",
+    "smallLetter": "September"
+  },
+  {
+    "type": "title",
+    "text": "The use of investment"
+  },
+  {
+  "type": "text",
+  "text": "The deadline of the project start  is the first quarter of 2017. All the indicators are included in the <a target='_blank' href='https://drive.google.com/drive/folders/0B7jBoD3kGmmDSEFZWjRLdnhBek0?usp=sharing' >file</a>. The first cottage will be implemented in 6 months. Later built facilities will be sold on a quarterly basis."
+}, {
+  "type": "title",
+  "text": "The current state of the business"
+},
+  {
+    "type": "text",
+    "text": "The land is purchased by Builder (with documentation) which separated to 5 constructors sites to build five houses. In the meantime , it is connecting to the necessary utilities."
+  },
+  {
+    "type": "title",
+    "text": "Team"
+  },
+  {
+    "type": "text",
+    "text": "Artem Sergeev head of construction company. Experience in the field of housing construction — more than 5 years. More than 5 persons of qualified staff .Owning several  construction machineries , and mechanism."
+  },
+{
+  "type": "title",
+  "text": "Business indexes"
+},
+{
+  "type": "table",
+  "headers": ["Indicators", "Units", "Units"],
+  "data": [
+    ["Own funds", "RUB million", "3.3"],
+    ["Investors funds", "RUB million", "7.2"]
+  ]
+},
+  {
+    "type": "text",
+    "text": "Due date payments to the investor is quarterly  in the <a target='_blank' href='https://drive.google.com/drive/folders/0B7jBoD3kGmmDSEFZWjRLdnhBek0?usp=sharing' >file</a>."
+  },
+  {
+    "type": "text",
+    "text": "The clean profit from the project paid to investors – 50%."
+  },
+  {
+    "type": "text",
+    "text": "The yield of investor is 31.6 % of the invested amount."
+  },
+
+  {
+  "type": "big-quote_left-side-indicators",
+  "left": {
+    "title": "Investment model:",
+    "numb": false,
+    "val": "OB2",
+    "rightText": "royalty",
+    "bottomText": "Returns from the proceeds of  real estate sales (50% of clean profit)"
+  },
+  "right": {
+    "title": "Payback period: ",
+    "val": "15",
+    "rightText": "months",
+    "bottomText": ""
+    }
+  },
+  {
+    "type": "text",
+    "text": "<a target='_blank' href='https://drive.google.com/drive/folders/0B7jBoD3kGmmDSEFZWjRLdnhBek0?usp=sharing' > see projects details </a>",
+    "class": "info-after-indicators"
+  }
+]

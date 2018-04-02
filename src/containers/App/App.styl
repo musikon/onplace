@@ -1,0 +1,159 @@
+@import "../../commonStyles/commonHelperStyles/fonts.styl"
+@import "../../commonStyles/commonHelperStyles/reset.styl"
+
+body
+  overflow-x: hidden
+  background: white;
+
+html
+  -webkit-font-smoothing: antialiased;
+
+  +below(826px)
+    font-size: 14px
+
+  +between(826px, 979px)
+    font-size: 10px
+
+  +between(980px, 1141px)
+    font-size: 12px
+
+  +between(1142px, 1300px)
+    font-size: 14px
+
+input::-ms-clear {
+  display: none;
+}
+
+.g-main-page-title
+  define-font(museo, (45/rfs)rem, black, 1, normal)
+  opacity 0.8
+  text-transform uppercase
+  width: 90%
+
+  +below(826px)
+    width: 100%
+    word-wrap: break-word
+
+.g-main-page-inner-title
+  define-font(museo, (34/rfs)rem, black, 1, bold)
+  width: 90%
+
+.g-content-title
+  define-font(museo, (22/rfs)rem, black, 1.27, bold)
+  +below(tablet_max)
+    define-font(museo, (24/rfs)rem, black, 1.27, bold)
+
+.g-content-description
+  define-font(mono, (15/rfs)rem, black, 1.6)
+  opacity 0.8
+  +below(tablet_max)
+    define-font(museo, (17/rfs)rem, black, 1.6)
+
+.g-all-items-link
+  define-font(museo, (14/rfs)rem, black, 1.14, normal, 0.5px)
+  text-transform: uppercase
+  text-decoration: none
+  opacity 0.8
+  +below(tablet_max)
+    define-font(museo, (14/rfs)rem, black, 1.14, normal, 0.5px)
+
+  &:after
+    content: ''
+    width: 8px
+    height: 12px
+    display: inline-block
+    background-image: url(../../images/arrow-right.svg)
+    position: relative
+    background-repeat: no-repeat
+    padding-left: 15px
+    background-position: 100% 0
+    opacity 0.8
+
+.g-about__content-wrapper
+  .c-article-content
+    position: relative
+    box-sizing: border-box;
+    define-container((950/rfs)rem)
+    +below(826px)
+      padding: 0 (32/rfs)rem
+
+.g-article__content-wrapper
+  .c-article-content
+    position: relative
+    box-sizing: border-box;
+    define-container((950/rfs)rem)
+    padding-right: (100/rfs)rem
+    +below(826px)
+      padding: 0 (32/rfs)rem
+
+//.g-content-wrapper-full
+
+
+.g-content-big-quote-wrapper
+  background-color: blue
+  padding: (35/rfs)rem 0 (42/rfs)rem 0
+  margin-top: (-25/rfs)rem
+  margin-bottom: (40/rfs)rem
+  box-shadow: 0 (20/rfs)rem (30/rfs)rem 0 rgba(30, 157, 242, 0.5)
+
+.footer-wrapper__main
+  margin-top: 0
+  clearfix()
+
+  &.is-plug
+    margin-bottom: 0
+
+.footer-wrapper
+  margin-top: 0
+  margin-bottom: (70/rfs)rem
+  clearfix()
+
+//without fixed footer
+.footer-inner-wrapper
+  margin-top: 0
+  margin-bottom: (30/rfs)rem
+  clearfix()
+
+.g-header-wrapper
+  position: fixed
+  width: 100%
+  z-index: 100
+
+.common-page-content-container
+  //not 72(like on main page) cause not active now
+  padding-top: (67/rfs)rem
+
+.hide-page, .hidden, .none
+  display: none !important
+
+.sticky-container
+  position: relative
+
+.clearfix
+  clearfix()
+
+.g-question-mark-cursor
+  cursor: help !important
+
+// ProjectType text color
+.color_bigProject
+ color: rgb(246, 67, 0) !important;
+
+.color_standartProject
+  color: rgb(255, 194, 0) !important;
+
+.color_startupProject
+  color: rgb(255, 194, 0) !important;
+
+// ProjectType background color
+.background_bigProject
+  background: rgb(246, 67, 0) !important;
+
+.background_standardProject
+  background: rgb(255, 194, 0) !important;
+
+.background_startupProject
+  background: rgb(255, 194, 0) !important;
+
+.g-currency
+  font-family: rouble

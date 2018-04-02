@@ -1,0 +1,179 @@
+@import "../../images/sprites/socials.css";
+
+.c-team-member-card-root
+  column(3/12, $gutter: gutter)
+  white-space: normal
+
+  .card
+    position: relative
+    transition: box-shadow 0.3s linear
+
+    &:hover.is-desktop,
+    &.with-overlay
+      box-shadow: 0 (25/rfs)rem (38/rfs)rem 0 rgba(75, 81, 103, 0.5)
+
+      .card-front
+        .front-overlay
+          z-index: 25
+
+          .front-overlay-inner
+            &:before
+              width: 2000px
+              height: 2000px
+
+      .card-back
+        opacity: 1
+        z-index: 50
+        transition-delay: 0.3s
+
+  .card-front,
+  .card-back
+    width: 100%
+    height: 100%
+
+  .card-front
+    z-index: 2
+    overflow: hidden
+    position: relative
+
+    .front-overlay
+      position: absolute
+      left: 0
+      top: 0
+
+      .front-overlay-inner
+        position: absolute
+        width: 2000px
+        height: 2000px
+        transform: translateX(-50%) translateY(-50%);
+
+        &:before
+          content: ''
+          position: absolute
+          left: 50%
+          top: 50%
+          background-color: white
+          border-radius: 50%
+          transform: translateX(-50%) translateY(-50%)
+          width: 0
+          height: 0
+          z-index: 45
+          transition: all 0.6s linear
+
+  .card-back
+    left: 0
+    top: 0
+    background-color: white
+    overflow: hidden
+    z-index: 50
+    opacity: 0;
+    position: absolute
+    transition: opacity 0.3s linear
+    transition-delay: 0s
+
+  .back-text-container
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    box-sizing: border-box
+    padding: (30/rfs)rem (20/rfs)rem (30/rfs)rem (20/rfs)rem
+
+    .name
+      define-font(mono, (20/rfs)rem, black, 1.6, bold, 1.3px)
+
+    .position
+      define-font(mono, (12/rfs)rem, gray, 1)
+      margin-top: 0
+
+    .age
+      define-font(mono, (14/rfs)rem, black, 1, bold, 0.6px)
+      text-transform: uppercase
+      margin-top: (29/rfs)rem
+
+    .description
+      define-font(mono, (12/rfs)rem, black, 1.6)
+      margin-top: (24/rfs)rem
+
+      +below(359px)
+        font-size: (14/rfs)rem
+
+      +below(340px)
+        font-size: (13/rfs)rem
+
+      p
+        margin-bottom: 26px
+
+  .photo-container
+    font-size: 0
+
+    img
+      width: 100%
+
+  .info-text-container
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    box-sizing: border-box
+    padding: (26/rfs)rem (20/rfs)rem
+
+  .main-text-container
+    position: relative
+    left: (-14/rfs)rem
+    top: (14/rfs)rem
+
+  .large-text
+    define-font(museo, (154/rfs)rem, gallery, 1, normal, (-10.4/rfs)rem)
+    opacity: 0.4
+
+  .middle-text
+    define-font(museo, (36/rfs)rem, gallery, 1, bold, 1.7px)
+    text-transform: uppercase
+    opacity: 0.4
+    margin-left: (22/rfs)rem
+
+    &.sub
+      vertical-align: top
+      position: relative
+      top: 14px
+
+  .small-text
+    define-font(museo, (14/rfs)rem, gallery, 1.43, bold, 0.5px)
+    max-width: 88%
+    opacity: 0.4
+    text-transform: uppercase
+
+  .name
+    define-font(museo, (16/rfs)rem, white, 1.6, bold, 1.3px)
+    text-transform: uppercase
+    margin-top: (10/rfs)rem
+
+  .position
+    define-font(museo, (15/rfs)rem, white, 1, normal, 1px)
+    opacity: 0.64
+    margin-top: (11/rfs)rem
+
+  .socials
+    position: absolute
+    left: (20/rfs)rem
+    bottom: (26/rfs)rem
+
+    .social-icons
+      opacity: 0.5
+      margin-right (10/rfs)rem
+
+    .social-instagram
+      &:hover
+        background-position: -46px 0;
+        opacity: 1
+
+    .social-facebook
+      &:hover
+        background-position: -23px 0;
+        opacity: 1

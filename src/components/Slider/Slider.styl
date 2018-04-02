@@ -1,0 +1,286 @@
+.c-slider-root
+  overflow: hidden
+  define-container((1280/rfs)rem)
+
+  .arrows-wrapper
+    position: relative
+    width (90/rfs)rem
+    left: (0/rfs)rem
+    top: (-16/rfs)rem
+    display flex
+    justify-content space-between
+
+  .arrows-wrapper-midle
+    position: absolute
+    width (1136/rfs)rem
+    display flex
+    justify-content space-between
+    left: (0/rfs)rem
+    height 0
+    top (0/rfs)rem
+    bottom (0/rfs)rem
+    margin auto
+
+  .icon-slider-arrows-blue
+    position: absolute
+    bottom: (43/rfs)rem
+    cursor: pointer
+    z-index: 95
+
+    &.inactive
+      cursor: default
+
+  .icon-slider-arrow-left
+    left: 0
+
+    &.inactive
+      &:hover
+        background-position: -80px 0;
+
+    &:hover
+      background-position: -120px 0;
+
+  .icon-slider-arrow-right
+    right: 0
+
+    &.inactive
+      &:hover
+        background-position: 0 0;
+
+    &:hover
+      background-position: -40px 0;
+
+  &.publication-slider
+    .slider-inner
+      .slides-container
+        margin-top: (58/rfs)rem
+
+  &.team-slider
+    background-color: white
+    define-container((1168/rfs)rem)
+    position: relative
+    left: (15/rfs)rem
+
+    &.active-slide-0
+      &.hovered
+        margin: auto
+        max-width: (1280/rfs)rem
+
+        .slider-inner
+          max-width: none
+          margin: auto
+          margin-left: (56/rfs)rem
+
+          &.active-slide-1
+            .slides-container
+              margin-left: (-46/rfs)rem
+
+          .slides-container
+            .slide
+              margin-right: (106/rfs)rem
+
+    &.active-slide-1
+      &.hovered
+        margin: auto
+        max-width: (1280/rfs)rem
+
+        .pagination-container.team-slider
+          &.hovered
+            margin-left: (-19/rfs)rem
+
+        .slide
+          &:nth-child(1)
+            .c-team-member-card-root
+              &:nth-child(3)
+                visibility: hidden
+
+    .slider-inner
+      padding-top: 0
+      define-container((1168/rfs)rem)
+
+      .main-page-slider-title
+        color: black
+
+      .slides-container
+        margin-top: (60/rfs)rem
+
+        .slide
+          margin-right: (18/rfs)rem
+          width: (1152/rfs)rem
+
+      .pagination-container
+        margin-top: (32/rfs)rem
+
+  .slider-inner
+    position: relative
+    padding-top: (126/rfs)rem
+    padding-bottom: (46/rfs)rem
+    width: (1210/rfs)rem
+    margin-left: (72/rfs)rem
+
+    &.projects
+      margin-left: 0
+      padding-top: 0
+
+    +below(826px)
+      margin: 0 (32/rfs)rem
+      width: auto
+
+    .main-page-slider-title
+      color: #000
+
+    .slides-container
+      margin-top: (39/rfs)rem
+      white-space: nowrap
+      position: relative
+      transition: left 1000ms cubic-bezier(0.86, 0, 0.07, 1) //easeInOutQuint
+
+      +below(826px)
+        text-align: center
+        margin-bottom: (35/rfs)rem
+
+      .slide
+        margin-right: (83/rfs)rem
+        display: inline-block
+        vertical-align: top
+        width: "calc(100% - %srem)" % ( 80/rfs )
+        clearfix()
+
+        +below(826px)
+          margin-right: 0
+
+        .c-news-card-root
+          +below(826px)
+            text-align: left
+            width: 100%
+
+        .c-publication-card-root
+          +below(826px)
+            text-align: left
+
+        &.num-items-3
+          .c-publication-card-root
+            margin-bottom: (16/rfs)rem
+
+            &:nth-child(1)
+              height: (308/rfs)rem
+
+            &:nth-child(2)
+              column(8/12, $gutter: gutter)
+              height: (542/rfs)rem
+
+            &:nth-child(3)
+              column(4/12, $gutter: gutter)
+              height: (542/rfs)rem
+
+              .publication-item
+                flex-direction: column
+
+                .publication-item-image-container,
+                .publication-item-container
+                  width: 100%
+
+                .publication-item-container
+                  padding: (23/rfs)rem (36/rfs)rem;
+                  height: (367/rfs)rem
+
+                .publication-item-image-container
+                  height: (175/rfs)rem
+
+                .publication-read-more
+                  left: (36/rfs)rem
+
+        &.num-items-2
+          .c-publication-card-root
+            &:nth-child(1)
+              column(8/12, $gutter: gutter)
+              height: (542/rfs)rem
+
+            &:nth-child(2)
+              column(4/12, $gutter: gutter)
+              height: (542/rfs)rem
+
+              .publication-item
+                flex-direction: column
+
+                .publication-item-image-container,
+                .publication-item-container
+                  width: 100%
+
+                .publication-item-container
+                  padding: (23/rfs)rem (36/rfs)rem;
+                  height: (367/rfs)rem
+
+                .publication-item-image-container
+                  height: (175/rfs)rem
+
+                .publication-read-more
+                  left: (36/rfs)rem
+
+        &.num-items-1
+          .c-publication-card-root
+            &:nth-child(1)
+
+              +below(826px)
+                column(1/1)
+                text-align: left
+
+                .publication-item
+                  flex-direction: column
+
+                  .publication-item-image-container,
+                  .publication-item-container
+                    width: 100%
+
+                  .publication-item-container
+                    padding: (23/rfs)rem (36/rfs)rem;
+                    height: auto
+                    padding-bottom: (74/rfs)rem
+
+                  .publication-item-image-container
+                    height: (175/rfs)rem
+
+                  .publication-read-more
+                    left: (36/rfs)rem
+
+
+    .pagination-container
+      text-align: center
+      margin-top: (49/rfs)rem
+      font-size: 0
+      margin-left: (-72/rfs)rem
+
+      +below(826px)
+        display: none
+
+      &.team-slider
+        margin-left: (-18/rfs)rem
+
+        &.hovered
+          margin-left: (-60/rfs)rem
+
+      .slide-point
+        display: inline-block
+        vertical-align: middle
+        width: (10/rfs)rem
+        height: (10/rfs)rem
+        border: 1px solid black
+        border-radius: 50%
+        margin: 0 5px
+        box-sizing border-box
+        cursor: pointer
+        define-hover-shadow(0 2px 6px 0 rgba(0, 0, 0, 0.4))
+        opacity 0.8
+
+        &.active
+          background-color: black
+
+    .g-all-items-link
+      position: absolute
+      right: (96/rfs)rem
+      bottom: (67/rfs)rem
+      opacity 0.8
+  &.info-slider
+    .slider-inner
+      padding-top (79/rfs)rem
+      padding-bottom (39/rfs)rem

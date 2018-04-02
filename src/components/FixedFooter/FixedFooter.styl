@@ -1,0 +1,48 @@
+.c-fixed-footer-root
+  width: 100%
+
+  .button-registration
+    position relative
+    width 56px
+    height 56px
+    background #1e9df2
+    border-radius 28px
+    text-align center
+    cursor pointer
+    box-shadow: 0 (6/rfs)rem (6/rfs)rem 0 rgba(0, 0, 0, 0.24), 0 0 (6/rfs)rem 0 rgba(0, 0, 0, 0.12);
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+
+
+    .menu-items
+      position absolute
+      right 0px
+      bottom 0px
+      opacity 0
+      visibility hidden
+
+  .button-registration:hover
+    background #1d94e4
+    box-shadow: 0 (10/rfs)rem (10/rfs)rem 0 rgba(0, 0, 0, 0.24), 0 0 (10/rfs)rem 0 rgba(0, 0, 0, 0.12);
+
+  .button-registration.open
+    background white
+    width (264/rfs)rem
+    height (140/rfs)rem
+    border-radius 0px
+    text-align left
+
+    .menu-items
+      visibility visible
+      opacity 1
+      transition 1.5s
+      .item
+        padding (15/rfs)rem (72/rfs)rem (13/rfs)rem (32/rfs)rem
+        define-font(museo, (14/rfs)rem, black, 1.57, bold)
+        cursor pointer
+        span
+          opacity 0.8
+          text-transform uppercase
+        &:hover
+          background #1e9df2
+          color #fff
+

@@ -1,0 +1,43 @@
+.c-video
+  .video-container
+    position: relative
+
+    video
+      width: 100%
+      height: auto
+
+  .control-container
+    .play-container
+      display: inline-block
+      position: absolute
+      top: "calc(50% - %srem )" % (32/rfs)
+      left: "calc(50% - %srem )" % ( 32/rfs )
+
+      .play
+        position: relative
+        width: (64/rfs)rem
+        height: (64/rfs)rem
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50%
+        cursor: pointer
+
+        &:before
+          content: ' '
+          position: absolute
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: (12/rfs)rem 0 (12/rfs)rem (16/rfs)rem;
+          border-color: transparent transparent transparent #ffffff;
+          transition: all 0.25s ease
+
+          position: absolute
+          top: "calc(50% - %srem )" % (12/rfs)
+          left: "calc(50% - %srem )" % ( 6/rfs )
+
+        &.hide
+          display: none
+
+        &:hover
+          &:before
+            border-color: transparent transparent transparent blue;
